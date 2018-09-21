@@ -1,8 +1,8 @@
 <span class="main"><h1>Meteors Detected</h1>
 Обещаная локалка через неделю.<br>
 <a href=" https://wiki.baystation12.net/">BayStation12 Вики</a>
-<a href=" https://github.com/infinitystation">Код сервера</a>
-<span style="color: #3399ff;">Emergency Help: </span>
+<a href=" https://wiki.infinity-ss13.info/">Русская Вики</a>
+<a href=" https://github.com/YourHer0/Baystation12-1">Код сервера</a>
 
 <span style="color: #cc0000;">Q: Что за "Skill points"?</span>
 <span style="color: #009933;">A: Универсальные очки для распределения их по ряду навыков. Для каждой профессии есть старотвые умения, свое количество очков и "потолок" навыков. Выбирайте с умом, это влияет на механику игры.</span>
