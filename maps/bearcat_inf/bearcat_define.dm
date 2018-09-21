@@ -33,7 +33,7 @@
 	use_overmap = 1
 	num_exoplanets = 0
 	away_site_budget = 2
-	welcome_sound = 'sound/effects/cowboysting.ogg'
+	welcome_sound = 'sound/effects/meteors.ogg'
 
 	map_admin_faxes = list("FTU Merchant Office")
 
@@ -44,7 +44,7 @@
 
 	emergency_shuttle_recall_message = "Внимание всему экипажу: аварийная эвакуация судна отменена. Возвращайтесь к работе."
 
-	starting_money = 5000
+	starting_money = 1000
 	department_money = 0
 	salary_modifier = 0.2
 

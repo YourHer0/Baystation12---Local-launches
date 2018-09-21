@@ -3,6 +3,7 @@
 
 /datum/job/captain
 	supervisors = "the Merchant Code and your conscience"
+	economic_power = 5
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/captain
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_SCIENCE     = SKILL_ADEPT,
@@ -52,10 +53,12 @@
 	return get_all_station_access()
 
 /datum/job/chief_engineer
-	title = "Chief Engineer"
-	supervisors = "the Captain"
+	title = "Senior Engineer"
+	department = "Engineering"
 	department_flag = ENG
-	outfit_type = /decl/hierarchy/outfit/job/bearcat/chief_engineer
+	supervisors = "the Captain"
+	economic_power = 3
+	outfit_type = /decl/hierarchy/outfit/job/bearcat/senior_engineer
 	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_BASIC,
 	                    SKILL_COMPUTER     = SKILL_ADEPT,
 	                    SKILL_EVA          = SKILL_ADEPT,
@@ -69,6 +72,26 @@
 	                    SKILL_ATMOS        = SKILL_MAX,
 	                    SKILL_ENGINES      = SKILL_MAX)
 	skill_points = 30
+
+/*/datum/job/cmo
+	title = "Senior Doctor"
+	supervisors = "the Captain"
+	economic_power = 3
+
+	outfit_type = /decl/hierarchy/outfit/job/bearcat/cmo
+	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
+	                    SKILL_MEDICAL     = SKILL_ADEPT,
+	                    SKILL_ANATOMY     = SKILL_EXPERT,
+	                    SKILL_CHEMISTRY   = SKILL_BASIC,
+	                    SKILL_VIROLOGY    = SKILL_BASIC)
+
+	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
+	                    SKILL_ANATOMY     = SKILL_MAX,
+	                    SKILL_CHEMISTRY   = SKILL_MAX,
+	                    SKILL_VIROLOGY    = SKILL_MAX)
+	skill_points = 32
+	access = list(access_medical_equip, access_kitchen)*/
+
 
 /datum/job/doctor
 	title = "Doctor"
@@ -87,12 +110,14 @@
 	                    SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_CHEMISTRY   = SKILL_MAX,
 	                    SKILL_VIROLOGY    = SKILL_MAX)
-	skill_points = 32
+	skill_points = 28
+
 	access = list(access_medical_equip, access_kitchen)
 
 /datum/job/hop
 	title = "First Mate"
 	supervisors = "the Captain and the Merchant Code"
+	economic_power = 4
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/mate
 	hud_icon = "hudheadofpersonnel"
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,
@@ -102,7 +127,7 @@
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
 	                    SKILL_SCIENCE     = SKILL_MAX)
 
-	skill_points = 30
+	skill_points = 32
 	access = list(access_security, access_sec_doors, access_brig, access_forensics_lockers,
 			            access_medical, access_engine, access_change_ids, access_ai_upload, access_eva, access_heads,
 			            access_all_personal_lockers, access_maint_tunnels, access_bar, access_janitor, access_construction, access_morgue,
@@ -244,16 +269,14 @@
 		else
 			qdel(eyegore)
 
-/decl/hierarchy/outfit/job/bearcat/chief_engineer
-	name = BEARCAT_OUTFIT_JOB_NAME("Chief Engineer")
+/decl/hierarchy/outfit/job/bearcat/senior_engineer
+	name = BEARCAT_OUTFIT_JOB_NAME("Senior Engineer")
 	uniform = /obj/item/clothing/under/rank/chief_engineer
-	glasses = /obj/item/clothing/glasses/welding/superior
 	suit = /obj/item/clothing/suit/storage/hazardvest
 	gloves = /obj/item/clothing/gloves/thick
 	shoes = /obj/item/clothing/shoes/workboots
 	pda_type = /obj/item/modular_computer/pda/heads/ce
-	l_hand = /obj/item/device/radio
-	r_hand = /obj/item/weapon/gun/projectile/sec/lethal
+	r_pocket = /obj/item/device/radio
 	belt = /obj/item/weapon/storage/belt/utility/full
 	id_type = /obj/item/weapon/card/id/engineering/head
 	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
@@ -272,8 +295,8 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	id_type = /obj/item/weapon/card/id/silver
 	glasses = /obj/item/clothing/glasses/sunglasses/big
-	r_hand = /obj/item/weapon/gun/projectile/sec/lethal
-	l_hand = /obj/item/weapon/clipboard
+	l_pocket = /obj/item/weapon/gun/projectile/sec/lethal
+	r_pocket = /obj/item/weapon/clipboard
 
 /decl/hierarchy/outfit/job/bearcat/roboticist
 	name = BEARCAT_OUTFIT_JOB_NAME("Roboticist")
@@ -295,8 +318,7 @@
 	uniform = /obj/item/clothing/under/rank/cargo
 	shoes = /obj/item/clothing/shoes/brown
 	glasses = /obj/item/clothing/glasses/sunglasses
-	l_hand = /obj/item/weapon/clipboard
-	r_hand = /obj/item/weapon/gun/projectile/sec/lethal
+	r_pocket = /obj/item/weapon/clipboard
 	id_type = /obj/item/weapon/card/id/cargo/head
 
 /decl/hierarchy/outfit/job/bearcat/security
@@ -307,8 +329,7 @@
 	belt = /obj/item/weapon/melee/baton/loaded
 	head = /obj/item/clothing/head/warden
 	id_type = /obj/item/weapon/card/id/security
-	r_hand = /obj/item/device/radio
-	l_hand = /obj/item/weapon/gun/projectile/sec/lethal
+	r_pocket = /obj/item/device/radio
 	suit = /obj/item/clothing/suit/armor/pcarrier/medium
 	gloves = /obj/item/clothing/gloves/thick
 
@@ -345,7 +366,7 @@
 	r_pocket = /obj/item/device/radio
 
 /decl/hierarchy/outfit/job/bearcat/hand
-	name = BEARCAT_OUTFIT_JOB_NAME("Deck Hand")
+	name = BEARCAT_OUTFIT_JOB_NAME("Deckhand")
 
 /decl/hierarchy/outfit/job/bearcat/hand/pre_equip(mob/living/carbon/human/H)
 	..()

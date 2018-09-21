@@ -6,6 +6,10 @@
 	name = "\improper Crew Compartements"
 	icon_state = "crew_quarters"
 
+/area/ship/scrap/crew/lobby
+	name = "\improper Crew Lobby"
+	icon_state = "crew_quarters"
+
 /area/ship/scrap/crew/hallway/port
 	name = "\improper Crew Hallway - Port"
 
@@ -52,6 +56,10 @@
 /area/ship/scrap/crew/medbay
 	name = "\improper Medical Bay"
 	icon_state = "medbay"
+
+/area/ship/scrap/crew/medbay1
+	name = "\improper Operating Medical Bay"
+	icon_state = "devlab"
 
 /area/ship/scrap/top/hallway/port
 	name = "\improper Top Hallway - Port"
