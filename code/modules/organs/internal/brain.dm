@@ -126,12 +126,12 @@
 	if(owner)
 		if(damage > max_damage / 2 && healed_threshold)
 			spawn()
-				to_chat(owner, "<span class = 'notice' font size='10'><B>Where am I...?</B></span>")
-				sleep(5 SECONDS)
-				to_chat(owner, "<span class = 'notice' font size='10'><B>What's going on...?</B></span>")
+				to_chat(owner, "<span class = 'notice' font size='14'><large><i><center><B>....ГДЕ Я....?</i></center></B></span>")
 				sleep(10 SECONDS)
-				to_chat(owner, "<span class = 'notice' font size='10'><B>What happened...?</B></span>")
-				alert(owner, "You have taken massive brain damage! You will not be able to remember the events leading up to your injury.", "Brain Damaged")
+				to_chat(owner, "<span class = 'notice' font size='10'><large><i><center><B>....ЧТО ПРОИЗОШЛО....?</i></center></B></span>")
+				sleep(10 SECONDS)
+				to_chat(owner, "<span class = 'notice' font size='10'><large><i><center><B>....ЧТО CЛУЧИЛОCЬ....?</i></center></B></span>")
+				alert(owner, "Вы получили огромные повреждени&#255; головного мозга! Вы едва можете вcпомнить cобыти&#255;, которые привели к вашей травме. ", "Cерьезное повреждение мозга")
 			healed_threshold = 0
 
 		if(damage < (max_damage / 4))
