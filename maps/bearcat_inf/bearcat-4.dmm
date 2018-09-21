@@ -686,12 +686,6 @@
 /turf/simulated/floor/shuttle/red,
 /area/pirats/shuttle)
 "bO" = (
-/obj/structure/sink{
-	dir = 4;
-	icon_state = "sink";
-	pixel_x = 11;
-	pixel_y = 0
-	},
 /turf/simulated/floor/shuttle/white,
 /area/pirats/shuttle)
 "bQ" = (
@@ -828,10 +822,6 @@
 	dir = 4;
 	name = "shower door"
 	},
-/obj/machinery/shower{
-	dir = 2;
-	pixel_y = 18
-	},
 /obj/structure/window/reinforced,
 /obj/structure/curtain/open/shower,
 /turf/unsimulated/floor{
@@ -843,12 +833,6 @@
 /obj/item/weapon/storage/mirror{
 	pixel_x = 0;
 	pixel_y = 32
-	},
-/obj/structure/sink{
-	dir = 4;
-	icon_state = "sink";
-	pixel_x = 11;
-	pixel_y = 0
 	},
 /turf/simulated/floor/carpet,
 /area/admin/prison)
@@ -1640,12 +1624,6 @@
 	},
 /area/acting/backstage)
 "ef" = (
-/obj/structure/sink{
-	icon_state = "sink";
-	dir = 8;
-	pixel_x = -12;
-	pixel_y = 2
-	},
 /obj/item/weapon/storage/mirror{
 	pixel_x = 0;
 	pixel_y = -32
@@ -1653,9 +1631,6 @@
 /turf/simulated/floor/carpet,
 /area/admin/prison)
 "eg" = (
-/obj/machinery/shower{
-	dir = 1
-	},
 /obj/machinery/door/window/westleft{
 	name = "shower door"
 	},
