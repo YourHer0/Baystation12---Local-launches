@@ -103,7 +103,7 @@ client
 	possible_titles += "[pick("GUNS, GUNS EVERYWHERE", "THE LITTLEST ARMALIS", "WHAT HAPPENS WHEN YOU MIX MAINTENANCE DRONES AND COMMERCIAL-GRADE PACKING FOAM", "ATTACK! ATTACK! ATTACK!", "SEX BOMB")]"
 	possible_titles += "[pick("SPACE", "SEXY", "DRAGON", "WARLOCK", "LAUNDRY", "GUN", "ADVERTISING", "DOG", "CARBON MONOXIDE", "NINJA", "WIZARD", "SOCRATIC", "JUVENILE DELIQUENCY", "POLITICALLY MOTIVATED", "RADTACULAR SICKNASTY")] [pick("QUEST", "FORCE", "ADVENTURE")]"
 	possible_titles += "[pick("THE DAY [uppertext(GLOB.using_map.station_short)] STOOD STILL", "HUNT FOR THE GREEN WEENIE", "ALIEN VS VENDOMAT", "SPACE TRACK")]"
-	titles += "<center><h1>ÀŒ ¿À ¿ ÕŒÃ≈– [rand(1,1000)]<br>[pick(possible_titles)]<h1></h1></h1></center>"
+	titles += "<center><h1>Desperate attempt to drink tea number [rand(1,1000)]<br>[pick(possible_titles)]<h1></h1></h1></center>"
 	for(var/mob/living/carbon/human/H in GLOB.living_mob_list_|GLOB.dead_mob_list_)
 		if(findtext(H.real_name,"(mannequin)"))
 			continue
@@ -172,7 +172,7 @@ client
 		titles += "<center>STAFF'S GOOD BOYS:<br>[english_list(goodboys)]</center>"
 
 	var/disclaimer = "Sponsored by [GLOB.using_map.company_name].<br>All rights reserved.<br>"
-	disclaimer += pick("Use for parody prohibited. Prohibited.", "All stunts were performed by underpaid meteors. Do NOT try at home.", "[GLOB.using_map.company_name] does not endorse behaviour depicted. Attempt at your own risk.")
+	disclaimer += pick("Use for parody prohibited. Prohibited.", "All stunts were performed by underpaid Meteors. Do NOT try at home.", "[GLOB.using_map.company_name] does not endorse behaviour depicted. Attempt at your own risk.")
 	titles += "<center>[disclaimer]</center>"
 
 	return titles
