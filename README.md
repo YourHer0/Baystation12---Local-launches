@@ -1,10 +1,8 @@
 # Модифицированный baystation12
 [![Build Status](https://travis-ci.org/infinitystation/Baystation12.svg?branch=master)](https://travis-ci.org/infinitystation/Baystation12)  
 
-**Код**: https://github.com/infinitystation/Baystation12  
 **Сайт разработчика:** https://infinity-ss13.info/  
-**Discord**: https://discord.gg/N4atUkH  
-**Используемые карты:** Модифицированный Torch  
+**Используемые карты:**Биркет
 
 **Сайт оригинального разработчика:** https://baystation12.net  
 **Оригинальный код:** https://github.com/Baystation12/Baystation12  
@@ -35,9 +33,6 @@ saving baystation12.dmb (DEBUG mode)
 baystation12.dmb - 0 errors, 0 warnings`  
 Если будут проблемы, пишите в дискорд.
 
-## СОДЕЙСТВИЕ РАЗРАБОТКЕ БИЛДА.
-Обратиться разработчикам здесь:  
-https://discord.gg/N4atUkH  
 
 ## ЗАПУСК
 0. Убедитесь, что у вас есть BYOND. Скачать можно здесь: http://www.byond.com/.  
