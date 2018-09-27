@@ -2941,6 +2941,7 @@
 #include "maps\bearcat_inf\bearcat_inf.dm"
 #include "maps\bearcat_inf\bearcat_jobs.dm"
 #include "maps\bearcat_inf\bearcat_loadouts.dm"
+#include "maps\bearcat_inf\bearcat_lobby.dm"
 #include "maps\bearcat_inf\bearcat_misc.dm"
 #include "maps\bearcat_inf\bearcat_overmap.dm"
 #include "maps\bearcat_inf\bearcat_shuttles.dm"
