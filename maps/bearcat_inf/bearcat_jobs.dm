@@ -53,7 +53,7 @@
 	return get_all_station_access()
 
 /datum/job/hop
-	title = "First Mate"
+	title = "First Officer"
 	supervisors = "the Captain and the Merchant Code"
 	economic_power = 4
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/mate
@@ -113,9 +113,53 @@
 	skill_points = 32
 	access = list(access_medical_equip, access_kitchen)*/
 
+/*/datum/job/scientist
+	title = "Explorer"
+	department = "Exploration Corps"
+	department_flag = EC
+	supervisors = "the Lieutenant"
+	outfit_type = /decl/hierarchy/outfit/job/bearcat/doc
+	alt_titles = list(
+		"Chief Explorer",
+		"Senior Explorer",
+		)
+	total_positions = 9
+	spawn_positions = 9
+	hud_icon = "hudscientist"
+	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
+	                    SKILL_MEDICAL = SKILL_BASIC,
+	                    SKILL_ANATOMY = SKILL_BASIC)
+
+	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
+	                    SKILL_ANATOMY     = SKILL_MAX,
+	                    SKILL_CHEMISTRY   = SKILL_MAX,
+	                    SKILL_VIROLOGY    = SKILL_MAX)
+	skill_points = 18
+
+	access = list(access_medical_equip, access_kitchen)*/
+
+/*/datum/job/rd
+	title = "Lieutenant"
+	department = "Exploration Corps"
+	department_flag = EC
+	supervisors = "the Great Unknown"
+	outfit_type = /decl/hierarchy/outfit/job/bearcat/doc
+	hud_icon = "hudresearchdirector"
+	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
+	                    SKILL_MEDICAL = SKILL_BASIC,
+	                    SKILL_ANATOMY = SKILL_BASIC)
+
+	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
+	                    SKILL_ANATOMY     = SKILL_MAX,
+	                    SKILL_CHEMISTRY   = SKILL_MAX,
+	                    SKILL_VIROLOGY    = SKILL_MAX)
+	skill_points = 28
+
+	access = list(access_medical_equip, access_kitchen)*/
+	
 /datum/job/qm
 	title = "Quartermaster"
-	supervisors = "your greed, the Captain and the First Mate."
+	supervisors = "your greed, the Captain and the First Officer."
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/qm
 	total_positions = 1
 	spawn_positions = 1
@@ -182,13 +226,12 @@
 	                    SKILL_CHEMISTRY = SKILL_BASIC)
 
 /datum/job/assistant
-	title = "Deck Hand"
-	supervisors = "Quartermaster, the Captain and the First Mate"
+	title = "Crew member"
+	supervisors = "Quartermaster, the Captain and the First Officer"
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/hand
 	alt_titles = list(
 		"Steward" = /decl/hierarchy/outfit/job/bearcat/hand/cook,
-		"Cargo Hand",
-		"Digger" = /decl/hierarchy/outfit/job/bearcat/hand/digger,
+		"Rigger" = /decl/hierarchy/outfit/job/bearcat/hand/digger,
 		)
 	hud_icon = "hudcargotechnician"
 
@@ -254,22 +297,12 @@
 
 /decl/hierarchy/outfit/job/bearcat/captain
 	name = BEARCAT_OUTFIT_JOB_NAME("Captain")
-	uniform = /obj/item/clothing/under/casual_pants/classicjeans
+	uniform = /obj/item/clothing/under/captainformal
 	shoes = /obj/item/clothing/shoes/black
 	pda_type = /obj/item/modular_computer/pda/captain
 	r_pocket = /obj/item/device/radio
 	id_type = /obj/item/weapon/card/id/gold
 
-
-/decl/hierarchy/outfit/job/bearcat/captain/post_equip(var/mob/living/carbon/human/H)
-	..()
-	var/obj/item/clothing/uniform = H.w_uniform
-	if(uniform)
-		var/obj/item/clothing/accessory/toggleable/hawaii/random/eyegore = new()
-		if(uniform.can_attach_accessory(eyegore))
-			uniform.attach_accessory(null, eyegore)
-		else
-			qdel(eyegore)
 
 /decl/hierarchy/outfit/job/bearcat/senior_engineer
 	name = BEARCAT_OUTFIT_JOB_NAME("Senior Engineer")
