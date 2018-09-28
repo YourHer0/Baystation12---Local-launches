@@ -5,9 +5,9 @@
 	start_y = 4
 	base = 1
 	vessel_mass = 60
-	default_delay = 2 MINUTES
-	speed_mod = 0.25 MINUTE
-	burn_delay = 10 SECONDS
+	default_delay = 4 MINUTES
+	speed_mod = 0.30 MINUTE
+	burn_delay = 25 SECONDS
 
 	initial_generic_waypoints = list(
 		"nav_bearcat_below_bow",

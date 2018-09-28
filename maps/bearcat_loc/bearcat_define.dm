@@ -1,7 +1,7 @@
 /datum/map/bearcat
 	name = "Bearcat"
 	full_name = "FTV Bearcat"
-	path = "bearcat_inf"
+	path = "bearcat_loc"
 
 	station_name  = "FTV Bearcat"
 	station_short = "Bearcat"
@@ -25,7 +25,7 @@
 
 	evac_controller_type = /datum/evacuation_controller/lifepods
 	evac_controller_type = /datum/evacuation_controller/starship
-	lobby_icon = 'maps/bearcat_inf/bearcat_lobby.dmi'
+	lobby_icon = 'maps/bearcat_loc/bearcat_lobby.dmi'
 	lobby_screens = list("spess","aesthetic")
 
 	allowed_spawns = list("Cryogenic Storage")
@@ -44,9 +44,9 @@
 
 	emergency_shuttle_recall_message = "Внимание всему экипажу: аварийная эвакуация судна отменена. Возвращайтесь к работе."
 
-	starting_money = 1000
+	starting_money = 3000
 	department_money = 0
-	salary_modifier = 0.2
+	salary_modifier = 0.4
 
 /datum/map/bearcat/map_info(victim)
 	to_chat(victim, "Вы находитесь на борту <b>[station_name]</b>, независимого дочернего судна Вольного Торгового Союза на границе исследованного космоса.")
@@ -57,3 +57,8 @@
 	SStrade.traders += new /datum/trader/xeno_shop
 	SStrade.traders += new /datum/trader/medical
 	SStrade.traders += new /datum/trader/mining
+/*	SStrade.traders += new /datum/trader/robots
+	SStrade.traders += new /datum/trader/devices
+	SStrade.traders += new /datum/trader/electronics
+	SStrade.traders += new /datum/trader/toyshop
+	SStrade.traders += new /datum/trader/clothingshop*/

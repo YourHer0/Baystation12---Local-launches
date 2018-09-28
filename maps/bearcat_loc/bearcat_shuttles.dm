@@ -50,8 +50,8 @@
 	shuttle_area = /area/ship/scrap/shuttle/outgoing
 	dock_target = "bearcat_shuttle"
 	current_location = "nav_bearcat_port_dock_shuttle"
-	move_time = 25
-	warmup_time = 5
+	move_time = 30
+	warmup_time = 14
 	fuel_consumption = 3
 	landmark_transition = "exploration_transit"
 
