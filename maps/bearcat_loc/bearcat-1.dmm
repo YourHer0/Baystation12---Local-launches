@@ -13,7 +13,7 @@
 "am" = (/obj/structure/lattice,/turf/space,/area/space)
 "an" = (/turf/simulated/wall/r_wall/hull,/area/ship/scrap/escape_star)
 "ao" = (/obj/machinery/door/blast/regular{dir = 2},/turf/simulated/floor/plating,/area/ship/scrap/escape_port)
-"ap" = (/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/plating,/area/space)
+"ap" = (/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/reinforced/airless,/area/space)
 "aq" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{frequency = 1379; id_tag = "cargo_pump"},/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating,/area/ship/scrap/cargo/lower)
 "ar" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{frequency = 1379; id_tag = "cargo_pump"},/obj/machinery/embedded_controller/radio/airlock/docking_port{id_tag = "cargo"; pixel_x = 24; tag_airpump = "cargo_pump"; tag_chamber_sensor = "cargo_sensor"; tag_exterior_door = "cargo_out"; tag_interior_door = "cargo_in"},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/plating,/area/ship/scrap/cargo/lower)
 "as" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{density = 0; dir = 2; icon_state = "pdoor0"; id = "scraplock"; name = "External Blast Doors"; opacity = 0},/obj/machinery/door/firedoor,/turf/simulated/floor/plating,/area/ship/scrap/cargo/lower)
