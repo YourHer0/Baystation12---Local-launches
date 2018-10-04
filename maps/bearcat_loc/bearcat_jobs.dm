@@ -1,5 +1,5 @@
 /datum/map/bearcat
-	allowed_jobs = list(/datum/job/captain, /datum/job/chief_engineer, /datum/job/hop, /datum/job/officer, /datum/job/bartender, /datum/job/doctor, /datum/job/engineer, /datum/job/qm, /datum/job/roboticist, /datum/job/assistant, /datum/job/cyborg)
+	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/officer, /datum/job/cmo, /datum/job/doctor, /datum/job/Paramedic, /datum/job/chief_engineer, /datum/job/engineer, /datum/job/qm, /datum/job/roboticist, /datum/job/assistant, /datum/job/bartender, /datum/job/cyborg, )
 
 /datum/job/captain
 	supervisors = "the Merchant Code and your conscience"
@@ -94,11 +94,12 @@
 	                    SKILL_ENGINES      = SKILL_MAX)
 	skill_points = 30
 
-/*/datum/job/cmo
+/datum/job/cmo
 	title = "Senior Doctor"
 	supervisors = "the Captain"
 	economic_power = 3
-
+	department = "Medical"
+	department_flag = MED
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/cmo
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_MEDICAL     = SKILL_ADEPT,
@@ -111,7 +112,7 @@
 	                    SKILL_CHEMISTRY   = SKILL_MAX,
 	                    SKILL_VIROLOGY    = SKILL_MAX)
 	skill_points = 32
-	access = list(access_medical_equip, access_kitchen)*/
+	access = list(access_medical_equip, access_kitchen)
 
 /*/datum/job/scientist
 	title = "Explorer"
@@ -123,8 +124,8 @@
 		"Chief Explorer",
 		"Senior Explorer",
 		)
-	total_positions = 9
-	spawn_positions = 9
+	total_positions = 3
+	spawn_positions = 3
 	hud_icon = "hudscientist"
 	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
 	                    SKILL_MEDICAL = SKILL_BASIC,
@@ -156,7 +157,7 @@
 	skill_points = 28
 
 	access = list(access_medical_equip, access_kitchen)*/
-	
+
 /datum/job/qm
 	title = "Quartermaster"
 	supervisors = "your greed, the Captain and the First Officer."
@@ -176,7 +177,7 @@
 	title = "Security"
 	supervisors = "the Captain and his laws."
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/security
-	total_positions = 1
+	total_positions = 2
 	spawn_positions = 2
 	alt_titles = list(
 		"Sheriff")
@@ -195,12 +196,34 @@
 
 /datum/job/doctor
 	title = "Doctor"
+	department = "Medical"
 	supervisors = "the Captain and your idea of Hippocratic Oath"
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/doc
 	alt_titles = list(
 		"Surgeon")
-	total_positions = 3
-	spawn_positions = 3
+	department_flag = MED
+	total_positions = 2
+	spawn_positions = 2
+	hud_icon = "hudmedicaldoctor"
+	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
+	                    SKILL_MEDICAL = SKILL_BASIC,
+	                    SKILL_ANATOMY = SKILL_BASIC)
+
+	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
+	                    SKILL_VIROLOGY    = SKILL_MAX)
+	skill_points = 24
+	alt_titles = list(
+		"Surgeon")
+	access = list(access_medical_equip, access_kitchen)
+
+/datum/job/Paramedic
+	title = "Paramedic"
+	department = "Medical"
+	department_flag = MED
+	supervisors = "the Captain and your idea of Hippocratic Oath"
+	outfit_type = /decl/hierarchy/outfit/job/bearcat/paramedic
+	total_positions = 1
+	spawn_positions = 1
 	hud_icon = "hudmedicaldoctor"
 	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
 	                    SKILL_MEDICAL = SKILL_BASIC,
@@ -316,13 +339,36 @@
 	id_type = /obj/item/weapon/card/id/engineering/head
 	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
 
-/decl/hierarchy/outfit/job/bearcat/doc
-	name = BEARCAT_OUTFIT_JOB_NAME("Doctor")
+/decl/hierarchy/outfit/job/bearcat/cmo
+	name = BEARCAT_OUTFIT_JOB_NAME("Senior Doctor")
 	uniform = /obj/item/clothing/under/det/black
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	glasses = /obj/item/clothing/glasses/hud/health
 	shoes = /obj/item/clothing/shoes/laceup
 	id_type = /obj/item/weapon/card/id/medical
+	uniform = /obj/item/clothing/under/rank/chief_medical_officer
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/cmo
+	shoes = /obj/item/clothing/shoes/brown
+	r_pocket = /obj/item/device/flashlight/pen
+	pda_type = /obj/item/modular_computer/pda/heads/cmo
+
+/decl/hierarchy/outfit/job/bearcat/doc
+	name = BEARCAT_OUTFIT_JOB_NAME("Doctor")
+	uniform = /obj/item/clothing/under/manager
+	glasses = /obj/item/clothing/glasses/hud/health
+	shoes = /obj/item/clothing/shoes/laceup
+	id_type = /obj/item/weapon/card/id/medical
+
+/decl/hierarchy/outfit/job/bearcat/paramedic
+	name = BEARCAT_OUTFIT_JOB_NAME("Paramedic")
+	uniform = /obj/item/clothing/under/rank/medical/paramedic
+	suit = /obj/item/clothing/suit/storage/toggle/fr_jacket
+	shoes = /obj/item/clothing/shoes/jackboots
+	l_hand = /obj/item/weapon/storage/firstaid/adv
+	belt = /obj/item/weapon/storage/belt/medical/emt
+	uniform = /obj/item/clothing/under/rank/medical/scrubs/black
+	l_hand = /obj/item/weapon/storage/firstaid/adv
+	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
 
 /decl/hierarchy/outfit/job/bearcat/mate
 	name = BEARCAT_OUTFIT_JOB_NAME("First Mate")
@@ -409,6 +455,7 @@
 
 /decl/hierarchy/outfit/job/bearcat/hand/cook
 	name = BEARCAT_OUTFIT_JOB_NAME("Steward")
+	uniform = /obj/item/clothing/under/rank/chef
 	head = /obj/item/clothing/head/chefhat
 	suit = /obj/item/clothing/suit/chef/classic
 
@@ -422,8 +469,3 @@
 	name = BEARCAT_OUTFIT_JOB_NAME("Junior Engineer")
 	head = /obj/item/clothing/head/hardhat
 	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
-
-/decl/hierarchy/outfit/job/bearcat/hand/engine/pre_equip(mob/living/carbon/human/H)
-	..()
-	if(prob(50))
-		suit = /obj/item/clothing/suit/storage/hazardvest

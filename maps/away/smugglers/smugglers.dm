@@ -1,5 +1,5 @@
 #include "smugglers_areas.dm"
-#include "../mining/mining_areas.dm"
+#include "../../away/mining/mining_areas.dm"
 
 /obj/effect/overmap/sector/smugglers
 	name = "asteroid station"
@@ -12,10 +12,11 @@
 		"nav_smugglers_antag"
 	)
 
-/datum/map_template/ruin/away_site/smugglers
-	name = "Smugglers' Base"
+/datum/map_template/ruin/away_site/smugglers_inf
+	name = "Smugglers' Base Infinity"
 	id = "awaysite_smugglers"
 	description = "Yarr."
+	prefix = "maps/away_inf/"
 	suffixes = list("smugglers/smugglers.dmm")
 	cost = 1
 

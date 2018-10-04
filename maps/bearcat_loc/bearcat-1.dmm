@@ -256,12 +256,12 @@
 "eV" = (/obj/machinery/power/apc{dir = 2; name = "south bump"; pixel_y = -24},/obj/structure/cable,/turf/simulated/floor/tiled/freezer,/area/ship/scrap/crew/wash)
 "eW" = (/obj/machinery/washing_machine,/obj/machinery/light/small,/turf/simulated/floor/tiled/freezer,/area/ship/scrap/crew/wash)
 "eX" = (/obj/effect/decal/cleanable/dirt,/obj/random/drinkbottle,/turf/simulated/floor/tiled,/area/ship/scrap/unused)
-"eY" = (/obj/effect/decal/cleanable/dirt,/obj/item/weapon/zipgunframe,/obj/item/trash/liquidfood,/turf/simulated/floor/tiled,/area/ship/scrap/unused)
+"eY" = (/obj/effect/decal/cleanable/dirt,/obj/item/weapon/zipgunframe,/obj/item/trash/liquidfood,/mob/living/simple_animal/hostile/vagrant,/turf/simulated/floor/tiled,/area/ship/scrap/unused)
 "eZ" = (/obj/effect/decal/cleanable/dirt,/obj/random/trash,/turf/simulated/floor/tiled,/area/ship/scrap/unused)
 "fa" = (/obj/effect/decal/cleanable/dirt,/obj/structure/barricade,/turf/simulated/floor/plating,/area/ship/scrap/unused)
 "fb" = (/obj/effect/decal/cleanable/dirt,/obj/random/junk,/turf/simulated/floor/tiled,/area/ship/scrap/unused)
 "fc" = (/obj/effect/decal/cleanable/dirt,/obj/structure/inflatable/door,/turf/simulated/floor/tiled,/area/ship/scrap/unused)
-"fd" = (/obj/effect/decal/cleanable/dirt,/obj/random/voidhelmet,/turf/simulated/floor/tiled,/area/ship/scrap/unused)
+"fd" = (/obj/effect/decal/cleanable/dirt,/obj/random/voidhelmet,/mob/living/simple_animal/hostile/vagrant,/turf/simulated/floor/tiled,/area/ship/scrap/unused)
 "fe" = (/obj/structure/table/standard,/obj/item/clothing/head/welding,/obj/item/device/radio,/obj/item/weapon/tape_roll,/obj/item/device/radio/intercom{dir = 4; pixel_x = -22},/turf/simulated/floor/tiled,/area/ship/scrap/maintenance/storage)
 "ff" = (/obj/structure/table/standard,/obj/item/weapon/storage/toolbox/electrical{pixel_x = 7; pixel_y = 4},/obj/item/weapon/storage/toolbox/electrical{pixel_x = 7; pixel_y = 4},/obj/item/device/t_scanner,/obj/item/weapon/cell/high,/obj/item/weapon/tape_roll,/obj/item/weapon/airalarm_electronics,/obj/item/weapon/airlock_electronics,/obj/item/weapon/airlock_electronics,/turf/simulated/floor/plating,/area/ship/scrap/maintenance/storage)
 "fg" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/ship/scrap/maintenance/storage)
@@ -371,6 +371,7 @@
 "hg" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/ship/scrap/cargo/lower)
 "hh" = (/obj/structure/cable{d1 = 6; d2 = 8; icon_state = "6-8"},/turf/simulated/floor/tiled,/area/ship/scrap/cargo/lower)
 "hi" = (/obj/effect/landmark/test/safe_turf,/obj/effect/floor_decal/industrial/outline/yellow,/obj/random/closet,/turf/simulated/floor/tiled,/area/ship/scrap/cargo/lower)
+"hj" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/vagrant,/turf/simulated/floor/tiled,/area/ship/scrap/unused)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -436,7 +437,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeKeKgvgwgxgyfUgzgAfUgBgmgCgD
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeKeKgIgJgKfEgLgMeXfGgNgmgOgPgQeUgRgSfCfCfCfCfCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeKeKfrfrfrgTgigzfmgUgVgmgWgXgYeUeUfCfCfCfCfCgZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeKeKeKhafrfGfrfEfEeKeKhbhbhbhbfCfCfCfCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeKeKeKhcgihdheeKeKeKhbhbhbhbfCfCfCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeKeKeKhchjhdheeKeKeKhbhbhbhbfCfCfCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeKeKeKeKeKeKeKeKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeKeKeKeKeKauaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
