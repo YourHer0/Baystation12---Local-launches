@@ -33,7 +33,7 @@ Mentor			+MENTOR
 
 Admin Candidate		+ADMIN
 Trial Admin		+@ +SPAWN +REJUV +VAREDIT +BAN
-Badmin			+@ +POSSESS +BUILDMODE +SERVER +FUN
+Pomidor			+@ +POSSESS +BUILDMODE +SERVER +FUN
 Game Admin		+@ +STEALTH +SOUNDS +DEBUG
 
 Game Master		+EVERYTHING
