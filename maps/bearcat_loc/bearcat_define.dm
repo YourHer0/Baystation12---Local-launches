@@ -32,7 +32,7 @@
 	default_spawn = "Cryogenic Storage"
 	use_overmap = 1
 	num_exoplanets = 0
-	away_site_budget = 13
+	away_site_budget = 20
 	welcome_sound = 'sound/effects/meteors.ogg'
 
 	map_admin_faxes = list("FTU Merchant Office")
@@ -45,7 +45,7 @@
 	emergency_shuttle_recall_message = "Внимание всему экипажу: аварийная эвакуация судна отменена. Возвращайтесь к работе."
 
 	starting_money = 3000
-	department_money = 0
+	department_money = 1000
 	salary_modifier = 0.4
 
 /datum/map/bearcat/map_info(victim)

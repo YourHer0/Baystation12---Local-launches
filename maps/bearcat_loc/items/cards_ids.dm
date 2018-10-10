@@ -1,6 +1,6 @@
 //Torch ID Cards (they have to be here to make the outfits work, no way around it)
 
-/obj/item/weapon/card/id/torch
+/*/obj/item/weapon/card/id/torch
 	name = "identification card"
 	desc = "An identification card issued to personnel aboard the SEV Torch."
 	icon_state = "id"
@@ -169,7 +169,7 @@
 /obj/item/weapon/card/id/torch/passenger/research/liaison
 	job_access_type = /datum/job/liaison
 
-
+*/
 //Merchant
 /obj/item/weapon/card/id/torch/merchant
 	desc = "An identification card issued to Merchants, indicating their right to sell and buy goods."
@@ -178,11 +178,11 @@
 
 //Stowaway
 /obj/item/weapon/card/id/torch/stowaway
-	desc = "An identification card issued to personnel aboard the SEV Torch. Looks like the photo fell off this one."
+	desc = "An identification card issued to personnel aboard the FTV Bearcat. Looks like the photo fell off this one."
 	icon_state = "id"
-	job_access_type = /datum/job/crew
+//	job_access_type = /datum/job/crew
 
-/obj/item/weapon/card/id/torch/stowaway/New()
+/*/obj/item/weapon/card/id/torch/stowaway/New()
 	..()
 	var/species = SPECIES_HUMAN
 	if(prob(10))
@@ -196,3 +196,4 @@
 	fingerprint_hash = md5(registered_name)
 	dna_hash = md5(fingerprint_hash)
 	blood_type = RANDOM_BLOOD_TYPE
+*/

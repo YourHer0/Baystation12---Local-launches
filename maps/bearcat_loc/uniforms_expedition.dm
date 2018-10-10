@@ -1,7 +1,6 @@
 /decl/hierarchy/mil_uniform/ec/com //Can only be officers
 	name = "EC command"
-	min_rank = 11
-	departments = COM
+	//departments = COM
 
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/officer/command
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/command, /obj/item/clothing/head/ushanka/solgov, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov, /obj/item/clothing/shoes/jackboots/unathi)
@@ -18,7 +17,7 @@
 
 /decl/hierarchy/mil_uniform/ec/eng
 	name = "EC engineering"
-	departments = ENG
+	//departments = ENG
 
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/engineering
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/engineering, /obj/item/clothing/head/ushanka/solgov, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov, /obj/item/clothing/shoes/jackboots/unathi)
@@ -27,7 +26,6 @@
 
 /decl/hierarchy/mil_uniform/ec/eng/officer
 	name = "EC engineering CO"
-	min_rank = 11
 
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/officer/engineering
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/command, /obj/item/clothing/head/ushanka/solgov, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov, /obj/item/clothing/shoes/jackboots/unathi)
@@ -44,11 +42,11 @@
 
 /decl/hierarchy/mil_uniform/ec/eng/officer/com //Can only be officers
 	name = "EC engineering command"
-	departments = ENG|COM
+	//departments = ENG|COM
 
 /decl/hierarchy/mil_uniform/ec/sec
 	name = "EC security"
-	departments = SEC
+	//departments = SEC
 
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/security
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/security, /obj/item/clothing/head/ushanka/solgov, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov)
@@ -57,7 +55,6 @@
 
 /decl/hierarchy/mil_uniform/ec/sec/officer
 	name = "EC security CO"
-	min_rank = 11
 
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/officer/security
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/command, /obj/item/clothing/head/ushanka/solgov, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov, /obj/item/clothing/shoes/jackboots/unathi)
@@ -74,7 +71,7 @@
 
 /decl/hierarchy/mil_uniform/ec/sec/officer/com //Can only be officers
 	name = "EC security command"
-	departments = SEC|COM
+	//departments = SEC|COM
 
 /decl/hierarchy/mil_uniform/ec/med
 	name = "EC medical"
@@ -87,7 +84,6 @@
 
 /decl/hierarchy/mil_uniform/ec/med/officer
 	name = "EC medical CO"
-	min_rank = 11
 
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/officer/medical
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/command, /obj/item/clothing/head/ushanka/solgov, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov, /obj/item/clothing/shoes/jackboots/unathi)
@@ -117,7 +113,6 @@
 
 /decl/hierarchy/mil_uniform/ec/sup/officer
 	name = "EC supply CO"
-	min_rank = 11
 
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/officer/supply
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/command, /obj/item/clothing/head/ushanka/solgov, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov, /obj/item/clothing/shoes/jackboots/unathi)
@@ -142,7 +137,6 @@
 
 /decl/hierarchy/mil_uniform/ec/srv/officer
 	name = "EC service CO"
-	min_rank = 11
 
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/officer/service
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/command, /obj/item/clothing/head/ushanka/solgov, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov, /obj/item/clothing/shoes/jackboots/unathi)
@@ -168,7 +162,6 @@
 
 /decl/hierarchy/mil_uniform/ec/exp/officer
 	name = "EC exploration CO"
-	min_rank = 11
 
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/officer/exploration
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/command, /obj/item/clothing/head/ushanka/solgov, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov, /obj/item/clothing/shoes/jackboots/unathi)
@@ -195,7 +188,6 @@
 
 /decl/hierarchy/mil_uniform/ec/spt/officer
 	name = "EC command support CO"
-	min_rank = 11
 
 	utility_under= /obj/item/clothing/under/solgov/utility/expeditionary/officer/command
 

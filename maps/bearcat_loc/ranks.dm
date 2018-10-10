@@ -106,7 +106,7 @@
 /datum/mil_branch/expeditionary_corps
 	name = "Expeditionary Corps"
 	name_short = "SCGEC"
-	email_domain = "sierra.ec.scg"
+	email_domain = "ec.scg"
 
 	rank_types = list(
 		/datum/mil_rank/ec/e3,
