@@ -1,162 +1,143 @@
-"aa" = (/turf/simulated/floor/asteroid,/area/space)
+"aa" = (/turf/simulated/wall/r_wall,/area/smugglers/base)
 "ab" = (/turf/simulated/floor/asteroid,/area/mine/explored)
 "ac" = (/turf/simulated/mineral,/area/mine/unexplored)
 "ad" = (/obj/structure/lattice,/turf/space,/area/space)
-"ae" = (/turf/simulated/mineral,/area/space)
-"af" = (/turf/simulated/wall/r_wall,/area/space)
-"ag" = (/obj/machinery/door/airlock/external{frequency = 1502; icon_state = "closed"; id_tag = "ab_fore_dock_exter"; locked = 1},/turf/simulated/floor,/area/space)
+"ae" = (/obj/machinery/door/airlock/external{frequency = 1502; icon_state = "closed"; id_tag = "ab_fore_dock_exter"; locked = 1},/turf/simulated/floor,/area/smugglers/base)
+"af" = (/obj/machinery/airlock_sensor{frequency = 1502; id_tag = "asteroid_base_dock_sensor"; master_tag = "asteroid_base_dock_airlock"; pixel_x = 25},/obj/machinery/atmospherics/unary/vent_pump/high_volume{dir = 2; frequency = 1502; id_tag = "asteroid_base_dock_pump"},/obj/effect/floor_decal/industrial/warning/full,/obj/item/weapon/beartrap{anchored = 1; deployed = 1; icon_state = "beartrap1"},/obj/random/junk,/obj/random/junk,/obj/machinery/light/small{dir = 8; icon_state = "bulb_map"},/turf/simulated/floor,/area/smugglers/base)
+"ag" = (/obj/machinery/atmospherics/unary/outlet_injector{injecting = 1; use_power = 1},/turf/simulated/floor/airless,/area/smugglers/base)
 "ah" = (/turf/simulated/mineral,/area/mine/explored)
-"ai" = (/obj/machinery/airlock_sensor{frequency = 1502; id_tag = "asteroid_base_dock_sensor"; master_tag = "asteroid_base_dock_airlock"; pixel_x = 25},/obj/machinery/atmospherics/unary/vent_pump/high_volume{dir = 2; frequency = 1502; id_tag = "asteroid_base_dock_pump"},/obj/effect/floor_decal/industrial/warning/full,/obj/item/weapon/beartrap{anchored = 1; deployed = 1; icon_state = "beartrap1"},/obj/random/junk,/obj/random/junk,/obj/machinery/light/small{dir = 8; icon_state = "bulb_map"},/turf/simulated/floor,/area/space)
+"ai" = (/obj/machinery/door/airlock/external{frequency = 1502; icon_state = "closed"; id_tag = "ab_fore_dock_inter"; locked = 1; name = "Internal Airlock"},/obj/machinery/atmospherics/pipe/simple/visible/black,/turf/simulated/floor,/area/smugglers/base)
 "aj" = (/obj/structure/boulder,/turf/simulated/floor/asteroid,/area/mine/explored)
-"ak" = (/obj/machinery/atmospherics/unary/outlet_injector{injecting = 1; use_power = 1},/turf/simulated/floor/airless,/area/space)
-"al" = (/obj/structure/boulder,/turf/simulated/floor/asteroid,/area/space)
-"am" = (/obj/machinery/door/airlock/external{frequency = 1502; icon_state = "closed"; id_tag = "ab_fore_dock_inter"; locked = 1; name = "Internal Airlock"},/obj/machinery/atmospherics/pipe/simple/visible/black,/turf/simulated/floor,/area/space)
-"an" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable{icon_state = "0-4"; d2 = 4},/obj/machinery/door/blast/regular{id = "ab_blast"; name = "Observation Window"},/turf/simulated/floor,/area/space)
-"ao" = (/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/door/blast/regular{id = "ab_blast"; name = "Observation Window"},/turf/simulated/floor,/area/space)
-"ap" = (/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/door/blast/regular{id = "ab_blast"; name = "Observation Window"},/turf/simulated/floor,/area/space)
-"aq" = (/obj/machinery/embedded_controller/radio/airlock/airlock_controller{frequency = 1502; id_tag = "asteroid_base_dock_airlock"; name = "Dock Airlock Controller"; pixel_x = -25; tag_airpump = "asteroid_base_dock_pump"; tag_chamber_sensor = "asteroid_base_dock_sensor"; tag_exterior_door = "ab_fore_dock_exter"; tag_interior_door = "ab_fore_dock_inter"},/obj/machinery/access_button{command = "cycle_interior"; frequency = 1502; master_tag = "asteroid_base_dock_airlock"; name = "interior access button"; pixel_x = 25; pixel_y = 25},/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 5},/obj/structure/catwalk,/turf/simulated/floor,/area/space)
-"ar" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor,/area/space)
-"as" = (/obj/machinery/floodlight,/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor,/area/space)
-"at" = (/obj/machinery/power/apc{dir = 1; name = "Asteroid base main APC"; pixel_x = 0; pixel_y = 24},/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/stack/cable_coil,/obj/item/stack/cable_coil,/turf/simulated/floor,/area/space)
-"au" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/weapon/barrier,/obj/item/weapon/barrier,/obj/item/weapon/barrier,/turf/simulated/floor,/area/space)
-"av" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/machinery/button/remote/blast_door{id = "ab_blast"; name = "Observation Section"; pixel_x = 0; pixel_y = 24; req_access = newlist()},/turf/simulated/floor,/area/space)
-"aw" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/powered/scrubber,/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor,/area/space)
-"ax" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor,/area/space)
-"ay" = (/obj/machinery/atmospherics/pipe/manifold/visible/black{icon_state = "map"; dir = 1},/obj/structure/catwalk,/turf/simulated/floor,/area/space)
-"az" = (/obj/machinery/door/airlock/maintenance,/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor,/area/space)
-"aA" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/catwalk,/turf/simulated/floor,/area/space)
-"aB" = (/obj/machinery/embedded_controller/radio/airlock/airlock_controller{frequency = 1501; id_tag = "asteroid_base_east_airlock"; pixel_y = 25; tag_airpump = "asteroid_base_east_pump"; tag_chamber_sensor = "asteroid_base_east_airlock"; tag_exterior_door = "asteroid_base_east_outer"; tag_exterior_sensor = null; tag_interior_door = "asteroid_base_east_inner"; tag_interior_sensor = null},/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/machinery/access_button{command = "cycle_interior"; frequency = 1501; master_tag = "asteroid_base_east_airlock"; name = "interior access button"; pixel_x = 17; pixel_y = 25; req_one_access = newlist()},/obj/structure/catwalk,/turf/simulated/floor,/area/space)
-"aC" = (/obj/machinery/door/airlock/external{frequency = 1501; icon_state = "closed"; id_tag = "asteroid_base_east_inner"; locked = 1; name = "Internal Airlock"},/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor,/area/space)
-"aD" = (/obj/item/weapon/beartrap{anchored = 1; deployed = 1; icon_state = "beartrap1"},/obj/machinery/airlock_sensor{frequency = 1501; id_tag = "asteroid_base_east_sensor"; master_tag = "asteroid_base_east_airlock"; pixel_y = -25},/obj/machinery/atmospherics/unary/vent_pump/high_volume{dir = 8; frequency = 1501; id_tag = "asteroid_base_east_pump"},/obj/effect/floor_decal/industrial/warning/full,/obj/random/junk,/obj/random/junk,/obj/machinery/light/small{icon_state = "bulb_map"; dir = 1},/turf/simulated/floor,/area/space)
-"aE" = (/obj/machinery/door/airlock/external{frequency = 1501; icon_state = "closed"; id_tag = "asteroid_base_east_outer"; locked = 1},/turf/simulated/floor,/area/space)
-"aF" = (/obj/machinery/access_button/airlock_exterior{frequency = 1501; master_tag = "asteroid_base_east_airlock"; name = "exterior access button"; pixel_x = -25; pixel_y = 25},/turf/simulated/floor/asteroid,/area/space)
-"aG" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/catwalk,/turf/simulated/floor,/area/space)
-"aH" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/turf/simulated/floor,/area/space)
-"aI" = (/obj/item/weapon/wirecutters,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/random/junk,/obj/structure/catwalk,/turf/simulated/floor,/area/space)
-"aJ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/random/ore_smug,/obj/structure/catwalk,/turf/simulated/floor,/area/space)
-"aK" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/catwalk,/turf/simulated/floor,/area/space)
-"aL" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/structure/catwalk,/obj/machinery/light/tungsten{icon_state = "tube_map"; dir = 4},/turf/simulated/floor,/area/space)
-"aM" = (/turf/simulated/wall,/area/space)
-"aN" = (/turf/simulated/floor,/area/space)
-"aO" = (/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/clothing/mask/breath,/turf/simulated/floor,/area/space)
-"aP" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/obj/machinery/light/tungsten{icon_state = "tube_map"; dir = 8},/turf/simulated/floor,/area/space)
-"aQ" = (/obj/effect/floor_decal/industrial/warning{dir = 9},/turf/simulated/floor,/area/space)
-"aR" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/item/weapon/paper/smug_1,/turf/simulated/floor,/area/space)
-"aS" = (/obj/effect/floor_decal/industrial/warning{dir = 5},/turf/simulated/floor,/area/space)
-"aT" = (/obj/random/ore_smug,/turf/simulated/floor,/area/space)
-"aU" = (/obj/machinery/atmospherics/binary/pump{dir = 1},/turf/simulated/floor,/area/space)
-"aV" = (/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/weapon/tank/air{pixel_x = 5},/obj/item/weapon/tank/air,/turf/simulated/floor,/area/space)
-"aW" = (/turf/space,/area/mine/explored)
-"aX" = (/turf/space,/area/mine/unexplored)
-"aY" = (/obj/structure/boulder,/turf/simulated/floor/asteroid,/area/mine/unexplored)
-"aZ" = (/turf/simulated/wall/r_wall,/area/mine/explored)
-"ba" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor,/area/mine/unexplored)
-"bb" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/space)
-"bc" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/obj/random/ore_smug,/turf/simulated/floor,/area/mine/unexplored)
-"bd" = (/mob/living/simple_animal/hostile/retaliate/malf_drone,/turf/simulated/floor,/area/mine/unexplored)
-"be" = (/obj/random/junk,/turf/simulated/floor,/area/mine/unexplored)
-"bf" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor,/area/space)
-"bg" = (/obj/machinery/floodlight,/turf/simulated/floor,/area/space)
-"bh" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor,/area/space)
-"bi" = (/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/random/voidsuit,/obj/random/voidhelmet,/turf/simulated/floor,/area/space)
-"bj" = (/obj/item/weapon/ore/silver,/obj/item/weapon/ore/silver{pixel_x = 10; pixel_y = -5},/turf/simulated/floor/asteroid,/area/space)
-"bk" = (/turf/simulated/wall/r_wall,/area/mine/unexplored)
-"bl" = (/obj/item/weapon/paper/smug_2,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/space)
-"bm" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/structure/ore_box,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/space)
-"bn" = (/obj/structure/ore_box,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/space)
-"bo" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/mine/unexplored)
-"bp" = (/turf/simulated/floor,/area/mine/unexplored)
-"bq" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/empty,/turf/simulated/floor,/area/mine/unexplored)
-"br" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor,/area/mine/explored)
-"bs" = (/obj/item/weapon/ore/slag,/obj/item/weapon/ore/slag{pixel_x = 5; pixel_y = -2},/obj/item/weapon/ore/slag,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/space)
-"bt" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/structure/closet/crate/internals/fuel,/obj/item/stack/material/phoron/fifty,/turf/simulated/floor,/area/space)
-"bu" = (/obj/structure/ore_box,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/space)
-"bv" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/obj/structure/closet/crate/plastic,/obj/random/loot,/obj/random/loot,/obj/random/loot,/obj/random/loot,/obj/random/loot,/obj/random/loot,/obj/random/smokes,/obj/random/smokes,/turf/simulated/floor,/area/space)
-"bw" = (/obj/random/ore_smug,/turf/simulated/floor,/area/mine/unexplored)
-"bx" = (/obj/machinery/door/airlock/maintenance,/turf/simulated/floor,/area/space)
-"by" = (/turf/simulated/floor/tiled,/area/space)
-"bz" = (/obj/structure/table/woodentable,/obj/item/weapon/paper,/obj/item/weapon/pen,/obj/item/device/flashlight/lamp,/obj/machinery/power/apc{dir = 1; name = "Asteroid base office APC"; pixel_x = 0; pixel_y = 24},/turf/simulated/floor/tiled,/area/space)
-"bA" = (/obj/structure/safe/floor,/obj/random/contraband,/obj/random/contraband,/obj/random/loot,/obj/random/projectile,/obj/random/cash,/obj/random/cash,/obj/random/cash,/obj/machinery/button/remote/blast_door{id = "ab_blast"; name = "Observation Section"; pixel_x = 0; pixel_y = 24; req_access = newlist()},/turf/simulated/floor/tiled,/area/space)
-"bB" = (/turf/space,/area/smugglers/base)
-"bC" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/oxygen,/obj/machinery/light/small{dir = 8; icon_state = "bulb_map"},/turf/simulated/floor,/area/mine/unexplored)
-"bD" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor,/area/mine/explored)
-"bE" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/random/junk,/obj/structure/catwalk,/turf/simulated/floor,/area/mine/explored)
-"bF" = (/turf/simulated/floor,/area/mine/explored)
-"bG" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 10},/obj/structure/closet/crate/freezer,/obj/item/organ/internal/heart/vox,/obj/item/organ/internal/heart,/turf/simulated/floor,/area/mine/explored)
-"bH" = (/obj/effect/floor_decal/industrial/warning,/obj/structure/closet/crate/plastic_smug_weapons,/turf/simulated/floor,/area/space)
-"bI" = (/obj/effect/floor_decal/industrial/warning{dir = 6},/obj/structure/closet/crate/plastic_smug_ammo,/turf/simulated/floor,/area/space)
-"bJ" = (/obj/machinery/light/tungsten{icon_state = "tube_map"; dir = 4},/turf/simulated/floor,/area/mine/unexplored)
-"bK" = (/turf/simulated/wall,/area/mine/unexplored)
-"bL" = (/turf/simulated/floor/tiled,/area/mine/unexplored)
-"bM" = (/obj/structure/table/woodentable,/obj/random/coin{pixel_x = -5; pixel_y = -3},/obj/random/coin,/obj/item/weapon/storage/bible/booze{pixel_x = 10},/obj/item/weapon/paper/smug_4{pixel_x = -5; pixel_y = 4},/obj/item/weapon/paper/smug_5,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"bN" = (/obj/structure/bed/chair/comfy/red{dir = 8},/obj/machinery/light{icon_state = "tube1"; dir = 4},/turf/simulated/floor/tiled,/area/space)
-"bO" = (/turf/simulated/floor/asteroid,/area/mine/unexplored)
-"bP" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor,/area/mine/unexplored)
-"bQ" = (/obj/effect/decal/cleanable/blood,/turf/simulated/floor,/area/mine/explored)
-"bR" = (/obj/machinery/portable_atmospherics/powered/pump/filled,/turf/simulated/floor,/area/mine/unexplored)
-"bS" = (/turf/simulated/wall,/area/mine/explored)
-"bT" = (/obj/item/weapon/wrench,/turf/simulated/floor/tiled,/area/mine/explored)
-"bU" = (/turf/simulated/floor/tiled,/area/mine/explored)
-"bV" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor,/area/mine/explored)
-"bW" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/hydrogen,/turf/simulated/floor,/area/mine/unexplored)
-"bX" = (/obj/structure/table/standard,/obj/random/tech_supply,/turf/simulated/floor,/area/mine/explored)
-"bY" = (/obj/structure/table/standard,/obj/random/toolbox,/obj/machinery/light/tungsten,/turf/simulated/floor,/area/mine/explored)
-"bZ" = (/obj/structure/table/standard,/obj/random/firstaid,/turf/simulated/floor,/area/mine/explored)
-"ca" = (/obj/structure/closet/crate/trashcart,/turf/simulated/floor,/area/mine/explored)
-"cb" = (/obj/machinery/atmospherics/portables_connector{dir = 4},/obj/machinery/portable_atmospherics/canister,/turf/simulated/floor,/area/mine/explored)
-"cc" = (/obj/machinery/atmospherics/binary/pump{dir = 8},/turf/simulated/floor,/area/mine/unexplored)
-"cd" = (/obj/machinery/portable_atmospherics/powered/scrubber,/obj/machinery/atmospherics/portables_connector{dir = 8},/turf/simulated/floor,/area/mine/explored)
-"ce" = (/obj/machinery/constructable_frame/machine_frame,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cf" = (/obj/structure/table/rack,/obj/item/clothing/head/cowboy_hat,/obj/item/clothing/suit/armor/hos/jensen,/obj/item/device/radio/intercept,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cg" = (/obj/structure/filingcabinet/chestdrawer,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"ch" = (/obj/machinery/door/airlock/maintenance{name = "Restroom"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor,/area/mine/explored)
-"ci" = (/obj/machinery/power/port_gen/pacman{anchored = 1; sheets = 25},/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/turf/simulated/floor,/area/mine/explored)
-"cj" = (/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/turf/simulated/floor,/area/mine/explored)
-"ck" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/mine/explored)
-"cl" = (/obj/structure/noticeboard{pixel_y = 30},/obj/structure/table/standard,/obj/machinery/microwave{pixel_y = 10},/turf/simulated/floor/tiled,/area/mine/explored)
-"cm" = (/obj/structure/closet/crate,/obj/random/snack,/obj/random/snack,/obj/random/snack,/obj/random/snack,/obj/random/snack,/turf/simulated/floor/tiled,/area/mine/explored)
-"cn" = (/obj/structure/closet/crate,/obj/random/drinkbottle,/obj/random/drinkbottle,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"co" = (/obj/machinery/computer/arcade,/turf/simulated/floor/tiled,/area/mine/explored)
-"cp" = (/obj/structure/closet/crate/freezer/rations,/obj/effect/decal/cleanable/cobweb2,/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_x = 0; pixel_y = 24; req_access = list(201)},/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/turf/simulated/floor/tiled,/area/mine/explored)
-"cq" = (/obj/structure/hygiene/shower{dir = 4; icon_state = "shower"; pixel_x = 0},/obj/structure/curtain/open/shower,/turf/simulated/floor/tiled/freezer,/area/mine/explored)
-"cr" = (/obj/machinery/light/small{dir = 4},/obj/structure/hygiene/sink{pixel_y = 15},/obj/item/weapon/storage/mirror{pixel_y = 30},/turf/simulated/floor/tiled/freezer,/area/mine/explored)
-"cs" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light/small{dir = 8; icon_state = "bulb_map"},/turf/simulated/floor,/area/mine/unexplored)
-"ct" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/random/junk,/obj/structure/catwalk,/turf/simulated/floor,/area/mine/explored)
-"cu" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/airlock/maintenance,/turf/simulated/floor/tiled,/area/mine/explored)
-"cv" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/mine/explored)
-"cw" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/random/junk,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cx" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cy" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/mine/explored)
-"cz" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/random/junk,/turf/simulated/floor/tiled,/area/mine/explored)
-"cA" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/mine/explored)
-"cB" = (/obj/machinery/door/airlock/maintenance,/turf/simulated/floor/tiled/freezer,/area/mine/explored)
-"cC" = (/obj/random/medical/lite,/turf/simulated/floor/tiled/freezer,/area/mine/unexplored)
-"cD" = (/obj/random/junk,/turf/simulated/floor/tiled/freezer,/area/mine/unexplored)
-"cE" = (/obj/structure/cable,/obj/machinery/power/terminal{dir = 4},/turf/simulated/floor,/area/mine/unexplored)
-"cF" = (/obj/machinery/power/smes/buildable/outpost_substation,/obj/structure/cable,/turf/simulated/floor,/area/mine/explored)
-"cG" = (/obj/structure/bed/chair{dir = 4},/obj/machinery/light,/turf/simulated/floor/tiled,/area/mine/unexplored)
+"ak" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable{icon_state = "0-4"; d2 = 4},/obj/machinery/door/blast/regular{id = "ab_blast"; name = "Observation Window"},/turf/simulated/floor,/area/smugglers/base)
+"al" = (/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/door/blast/regular{id = "ab_blast"; name = "Observation Window"},/turf/simulated/floor,/area/smugglers/base)
+"am" = (/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/door/blast/regular{id = "ab_blast"; name = "Observation Window"},/turf/simulated/floor,/area/smugglers/base)
+"an" = (/obj/machinery/embedded_controller/radio/airlock/airlock_controller{frequency = 1502; id_tag = "asteroid_base_dock_airlock"; name = "Dock Airlock Controller"; pixel_x = -25; tag_airpump = "asteroid_base_dock_pump"; tag_chamber_sensor = "asteroid_base_dock_sensor"; tag_exterior_door = "ab_fore_dock_exter"; tag_interior_door = "ab_fore_dock_inter"},/obj/machinery/access_button{command = "cycle_interior"; frequency = 1502; master_tag = "asteroid_base_dock_airlock"; name = "interior access button"; pixel_x = 25; pixel_y = 25},/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 5},/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/base)
+"ao" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor,/area/smugglers/base)
+"ap" = (/obj/machinery/floodlight,/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor,/area/smugglers/base)
+"aq" = (/obj/machinery/power/apc{dir = 1; name = "Asteroid base main APC"; pixel_x = 0; pixel_y = 24},/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/stack/cable_coil,/obj/item/stack/cable_coil,/turf/simulated/floor,/area/smugglers/base)
+"ar" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/weapon/barrier,/obj/item/weapon/barrier,/obj/item/weapon/barrier,/turf/simulated/floor,/area/smugglers/base)
+"as" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/machinery/button/remote/blast_door{id = "ab_blast"; name = "Observation Section"; pixel_x = 0; pixel_y = 24; req_access = newlist()},/turf/simulated/floor,/area/smugglers/base)
+"at" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/powered/scrubber,/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor,/area/smugglers/base)
+"au" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor,/area/smugglers/base)
+"av" = (/obj/machinery/atmospherics/pipe/manifold/visible/black{icon_state = "map"; dir = 1},/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/base)
+"aw" = (/obj/machinery/door/airlock/maintenance,/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor,/area/smugglers/base)
+"ax" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/base)
+"ay" = (/obj/machinery/embedded_controller/radio/airlock/airlock_controller{frequency = 1501; id_tag = "asteroid_base_east_airlock"; pixel_y = 25; tag_airpump = "asteroid_base_east_pump"; tag_chamber_sensor = "asteroid_base_east_airlock"; tag_exterior_door = "asteroid_base_east_outer"; tag_exterior_sensor = null; tag_interior_door = "asteroid_base_east_inner"; tag_interior_sensor = null},/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/machinery/access_button{command = "cycle_interior"; frequency = 1501; master_tag = "asteroid_base_east_airlock"; name = "interior access button"; pixel_x = 17; pixel_y = 25; req_one_access = newlist()},/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/base)
+"az" = (/obj/machinery/door/airlock/external{frequency = 1501; icon_state = "closed"; id_tag = "asteroid_base_east_inner"; locked = 1; name = "Internal Airlock"},/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor,/area/smugglers/base)
+"aA" = (/obj/item/weapon/beartrap{anchored = 1; deployed = 1; icon_state = "beartrap1"},/obj/machinery/airlock_sensor{frequency = 1501; id_tag = "asteroid_base_east_sensor"; master_tag = "asteroid_base_east_airlock"; pixel_y = -25},/obj/machinery/atmospherics/unary/vent_pump/high_volume{dir = 8; frequency = 1501; id_tag = "asteroid_base_east_pump"},/obj/effect/floor_decal/industrial/warning/full,/obj/random/junk,/obj/random/junk,/obj/machinery/light/small{icon_state = "bulb_map"; dir = 1},/turf/simulated/floor,/area/smugglers/base)
+"aB" = (/obj/machinery/door/airlock/external{frequency = 1501; icon_state = "closed"; id_tag = "asteroid_base_east_outer"; locked = 1},/turf/simulated/floor,/area/smugglers/base)
+"aC" = (/obj/machinery/access_button/airlock_exterior{frequency = 1501; master_tag = "asteroid_base_east_airlock"; name = "exterior access button"; pixel_x = -25; pixel_y = 25},/turf/simulated/floor/asteroid,/area/mine/explored)
+"aD" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/base)
+"aE" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/base)
+"aF" = (/obj/item/weapon/wirecutters,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/random/junk,/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/base)
+"aG" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/random/ore_smug,/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/base)
+"aH" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/base)
+"aI" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/structure/catwalk,/obj/machinery/light/tungsten{icon_state = "tube_map"; dir = 4},/turf/simulated/floor,/area/smugglers/base)
+"aJ" = (/turf/simulated/wall,/area/smugglers/base)
+"aK" = (/turf/simulated/floor,/area/smugglers/base)
+"aL" = (/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/clothing/mask/breath,/turf/simulated/floor,/area/smugglers/base)
+"aM" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/obj/machinery/light/tungsten{icon_state = "tube_map"; dir = 8},/turf/simulated/floor,/area/smugglers/base)
+"aN" = (/obj/effect/floor_decal/industrial/warning{dir = 9},/turf/simulated/floor,/area/smugglers/base)
+"aO" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/item/weapon/paper/smug_1,/turf/simulated/floor,/area/smugglers/base)
+"aP" = (/obj/effect/floor_decal/industrial/warning{dir = 5},/turf/simulated/floor,/area/smugglers/base)
+"aQ" = (/obj/random/ore_smug,/turf/simulated/floor,/area/smugglers/base)
+"aR" = (/obj/machinery/atmospherics/binary/pump{dir = 1},/turf/simulated/floor,/area/smugglers/base)
+"aS" = (/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/weapon/tank/air{pixel_x = 5},/obj/item/weapon/tank/air,/turf/simulated/floor,/area/smugglers/base)
+"aT" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/base)
+"aU" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/smugglers/base)
+"aV" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/obj/random/ore_smug,/turf/simulated/floor,/area/smugglers/base)
+"aW" = (/mob/living/simple_animal/hostile/retaliate/malf_drone,/turf/simulated/floor,/area/smugglers/base)
+"aX" = (/obj/random/junk,/turf/simulated/floor,/area/smugglers/base)
+"aY" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor,/area/smugglers/base)
+"aZ" = (/obj/machinery/floodlight,/turf/simulated/floor,/area/smugglers/base)
+"ba" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor,/area/smugglers/base)
+"bb" = (/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/random/voidsuit,/obj/random/voidhelmet,/turf/simulated/floor,/area/smugglers/base)
+"bc" = (/obj/item/weapon/ore/silver,/obj/item/weapon/ore/silver{pixel_x = 10; pixel_y = -5},/turf/simulated/floor/asteroid,/area/mine/explored)
+"bd" = (/obj/item/weapon/paper/smug_2,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/smugglers/base)
+"be" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/structure/ore_box,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/smugglers/base)
+"bf" = (/obj/structure/ore_box,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/smugglers/base)
+"bg" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/smugglers/base)
+"bh" = (/turf/simulated/wall,/area/smugglers/office)
+"bi" = (/turf/simulated/wall/r_wall,/area/smugglers/office)
+"bj" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/empty,/turf/simulated/floor,/area/smugglers/base)
+"bk" = (/obj/item/weapon/ore/slag,/obj/item/weapon/ore/slag{pixel_x = 5; pixel_y = -2},/obj/item/weapon/ore/slag,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/smugglers/base)
+"bl" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/structure/closet/crate/internals/fuel,/obj/item/stack/material/phoron/fifty,/turf/simulated/floor,/area/smugglers/base)
+"bm" = (/obj/structure/ore_box,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/obj/random/ore_smug,/turf/simulated/floor,/area/smugglers/base)
+"bn" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/obj/structure/closet/crate/plastic,/obj/random/loot,/obj/random/loot,/obj/random/loot,/obj/random/loot,/obj/random/loot,/obj/random/loot,/obj/random/smokes,/obj/random/smokes,/turf/simulated/floor,/area/smugglers/base)
+"bo" = (/obj/machinery/door/airlock/maintenance,/turf/simulated/floor,/area/smugglers/office)
+"bp" = (/turf/simulated/floor/tiled,/area/smugglers/office)
+"bq" = (/obj/structure/table/woodentable,/obj/item/weapon/paper,/obj/item/weapon/pen,/obj/item/device/flashlight/lamp,/obj/machinery/power/apc{dir = 1; name = "Asteroid base office APC"; pixel_x = 0; pixel_y = 24},/turf/simulated/floor/tiled,/area/smugglers/office)
+"br" = (/obj/structure/safe/floor,/obj/random/contraband,/obj/random/contraband,/obj/random/loot,/obj/random/projectile,/obj/random/cash,/obj/random/cash,/obj/random/cash,/obj/machinery/button/remote/blast_door{id = "ab_blast"; name = "Observation Section"; pixel_x = 0; pixel_y = 24; req_access = newlist()},/turf/simulated/floor/tiled,/area/smugglers/office)
+"bs" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/oxygen,/obj/machinery/light/small{dir = 8; icon_state = "bulb_map"},/turf/simulated/floor,/area/smugglers/base)
+"bt" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor,/area/smugglers/base)
+"bu" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/random/junk,/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/base)
+"bv" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 10},/obj/structure/closet/crate/freezer,/obj/item/organ/internal/heart/vox,/obj/item/organ/internal/heart,/turf/simulated/floor,/area/smugglers/base)
+"bw" = (/obj/effect/floor_decal/industrial/warning,/obj/structure/closet/crate/plastic_smug_weapons,/turf/simulated/floor,/area/smugglers/base)
+"bx" = (/obj/effect/floor_decal/industrial/warning{dir = 6},/obj/structure/closet/crate/plastic_smug_ammo,/turf/simulated/floor,/area/smugglers/base)
+"by" = (/obj/machinery/light/tungsten{icon_state = "tube_map"; dir = 4},/turf/simulated/floor,/area/smugglers/base)
+"bz" = (/obj/structure/table/woodentable,/obj/random/coin{pixel_x = -5; pixel_y = -3},/obj/random/coin,/obj/item/weapon/storage/bible/booze{pixel_x = 10},/obj/item/weapon/paper/smug_4{pixel_x = -5; pixel_y = 4},/obj/item/weapon/paper/smug_5,/turf/simulated/floor/tiled,/area/smugglers/office)
+"bA" = (/obj/structure/bed/chair/comfy/red{dir = 8},/obj/machinery/light{icon_state = "tube1"; dir = 4},/turf/simulated/floor/tiled,/area/smugglers/office)
+"bB" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor,/area/smugglers/base)
+"bC" = (/obj/effect/decal/cleanable/blood,/turf/simulated/floor,/area/smugglers/base)
+"bD" = (/obj/machinery/portable_atmospherics/powered/pump/filled,/turf/simulated/floor,/area/smugglers/base)
+"bE" = (/obj/item/weapon/wrench,/turf/simulated/floor/tiled,/area/smugglers/office)
+"bF" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/hydrogen,/turf/simulated/floor,/area/smugglers/base)
+"bG" = (/obj/structure/table/standard,/obj/random/tech_supply,/turf/simulated/floor,/area/smugglers/base)
+"bH" = (/obj/structure/table/standard,/obj/random/toolbox,/obj/machinery/light/tungsten,/turf/simulated/floor,/area/smugglers/base)
+"bI" = (/obj/structure/table/standard,/obj/random/firstaid,/turf/simulated/floor,/area/smugglers/base)
+"bJ" = (/obj/structure/closet/crate/trashcart,/turf/simulated/floor,/area/smugglers/base)
+"bK" = (/obj/machinery/atmospherics/portables_connector{dir = 4},/obj/machinery/portable_atmospherics/canister,/turf/simulated/floor,/area/smugglers/base)
+"bL" = (/obj/machinery/atmospherics/binary/pump{dir = 8},/turf/simulated/floor,/area/smugglers/base)
+"bM" = (/obj/machinery/portable_atmospherics/powered/scrubber,/obj/machinery/atmospherics/portables_connector{dir = 8},/turf/simulated/floor,/area/smugglers/base)
+"bN" = (/obj/machinery/constructable_frame/machine_frame,/turf/simulated/floor/tiled,/area/smugglers/office)
+"bO" = (/obj/structure/table/rack,/obj/item/clothing/head/cowboy_hat,/obj/item/clothing/suit/armor/hos/jensen,/obj/item/device/radio/intercept,/turf/simulated/floor/tiled,/area/smugglers/office)
+"bP" = (/obj/structure/filingcabinet/chestdrawer,/turf/simulated/floor/tiled,/area/smugglers/office)
+"bQ" = (/turf/simulated/wall/r_wall,/area/smugglers/dorms)
+"bR" = (/turf/simulated/wall,/area/smugglers/dorms)
+"bS" = (/obj/machinery/door/airlock/maintenance{name = "Restroom"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor,/area/smugglers/dorms)
+"bT" = (/obj/machinery/power/port_gen/pacman{anchored = 1; sheets = 25},/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/turf/simulated/floor,/area/smugglers/dorms)
+"bU" = (/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/turf/simulated/floor,/area/smugglers/dorms)
+"bV" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"bW" = (/obj/structure/noticeboard{pixel_y = 30},/obj/structure/table/standard,/obj/machinery/microwave{pixel_y = 10},/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"bX" = (/obj/structure/closet/crate,/obj/random/snack,/obj/random/snack,/obj/random/snack,/obj/random/snack,/obj/random/snack,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"bY" = (/obj/structure/closet/crate,/obj/random/drinkbottle,/obj/random/drinkbottle,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"bZ" = (/obj/machinery/computer/arcade,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"ca" = (/obj/structure/closet/crate/freezer/rations,/obj/effect/decal/cleanable/cobweb2,/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_x = 0; pixel_y = 24; req_access = list(201)},/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cb" = (/obj/structure/hygiene/shower{dir = 4; icon_state = "shower"; pixel_x = 0},/obj/structure/curtain/open/shower,/turf/simulated/floor/tiled/freezer,/area/smugglers/dorms)
+"cc" = (/obj/machinery/light/small{dir = 4},/obj/structure/hygiene/sink{pixel_y = 15},/obj/item/weapon/storage/mirror{pixel_y = 30},/turf/simulated/floor/tiled/freezer,/area/smugglers/dorms)
+"cd" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light/small{dir = 8; icon_state = "bulb_map"},/turf/simulated/floor,/area/smugglers/dorms)
+"ce" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/random/junk,/obj/structure/catwalk,/turf/simulated/floor,/area/smugglers/dorms)
+"cf" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/airlock/maintenance,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cg" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"ch" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/random/junk,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"ci" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cj" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"ck" = (/obj/machinery/door/airlock/maintenance,/turf/simulated/floor/tiled/freezer,/area/smugglers/dorms)
+"cl" = (/obj/random/medical/lite,/turf/simulated/floor/tiled/freezer,/area/smugglers/dorms)
+"cm" = (/obj/random/junk,/turf/simulated/floor/tiled/freezer,/area/smugglers/dorms)
+"cn" = (/obj/structure/cable,/obj/machinery/power/terminal{dir = 4},/turf/simulated/floor,/area/smugglers/dorms)
+"co" = (/obj/machinery/power/smes/buildable/outpost_substation,/obj/structure/cable,/turf/simulated/floor,/area/smugglers/dorms)
+"cp" = (/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cq" = (/obj/structure/bed/chair{dir = 4},/obj/machinery/light,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cr" = (/obj/structure/table/standard,/obj/item/weapon/paper/smug_3,/obj/item/weapon/flame/lighter/random,/obj/random/coin,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cs" = (/obj/structure/table/standard,/obj/item/weapon/spacecash/bundle/c10,/obj/random/smokes,/obj/random/snack,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"ct" = (/obj/structure/bed/chair{dir = 8},/obj/machinery/light,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cu" = (/obj/structure/closet,/obj/random/medical,/obj/random/medical,/obj/random/tech_supply,/obj/random/action_figure,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cv" = (/obj/random/soap,/turf/simulated/floor/tiled/freezer,/area/smugglers/dorms)
+"cw" = (/obj/structure/hygiene/toilet{dir = 8},/turf/simulated/floor/tiled/freezer,/area/smugglers/dorms)
+"cx" = (/obj/machinery/door/airlock/maintenance,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cy" = (/obj/structure/closet/smuggler,/obj/random/suit,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cz" = (/obj/structure/bed,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cA" = (/obj/item/weapon/bedsheet/blue,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cB" = (/obj/structure/bed,/obj/item/weapon/bedsheet/rd,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cC" = (/obj/machinery/light/small{dir = 4; icon_state = "bulb_map"},/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cD" = (/obj/structure/bed,/obj/item/weapon/bedsheet/captain,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cE" = (/obj/random/junk,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cF" = (/obj/structure/bed,/obj/item/weapon/bedsheet/orange,/turf/simulated/floor/tiled,/area/smugglers/dorms)
+"cG" = (/obj/effect/shuttle_landmark/nav_asteroid_base/nav1,/turf/simulated/floor/asteroid,/area/mine/explored)
 "cH" = (/obj/effect/overmap/sector/smugglers,/obj/machinery/access_button/airlock_exterior{frequency = 1502; master_tag = "asteroid_base_dock_airlock"; name = "exterior access button"; pixel_x = 25; pixel_y = -25},/obj/structure/lattice,/turf/space,/area/space)
-"cI" = (/obj/structure/table/standard,/obj/item/weapon/paper/smug_3,/obj/item/weapon/flame/lighter/random,/obj/random/coin,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cJ" = (/obj/structure/table/standard,/obj/item/weapon/spacecash/bundle/c10,/obj/random/smokes,/obj/random/snack,/turf/simulated/floor/tiled,/area/mine/explored)
-"cK" = (/obj/structure/bed/chair{dir = 8},/obj/machinery/light,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cL" = (/obj/structure/closet,/obj/random/medical,/obj/random/medical,/obj/random/tech_supply,/obj/random/action_figure,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cM" = (/obj/random/soap,/turf/simulated/floor/tiled/freezer,/area/mine/explored)
-"cN" = (/obj/structure/hygiene/toilet{dir = 8},/turf/simulated/floor/tiled/freezer,/area/mine/unexplored)
-"cO" = (/turf/space,/area/smugglers/office)
 "cP" = (/obj/effect/shuttle_landmark/nav_asteroid_base/nav2,/turf/space,/area/space)
 "cQ" = (/turf/space,/area/space)
-"cR" = (/obj/machinery/door/airlock/maintenance,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cS" = (/obj/structure/closet/smuggler,/obj/random/suit,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cT" = (/obj/structure/bed,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cU" = (/obj/item/weapon/bedsheet/blue,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cV" = (/obj/structure/bed,/obj/item/weapon/bedsheet/rd,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cW" = (/obj/machinery/light/small{dir = 4; icon_state = "bulb_map"},/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cX" = (/obj/structure/closet/smuggler,/obj/random/suit,/turf/simulated/floor/tiled,/area/mine/explored)
-"cY" = (/obj/structure/bed,/obj/item/weapon/bedsheet/captain,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"cZ" = (/obj/random/junk,/turf/simulated/floor/tiled,/area/mine/unexplored)
-"da" = (/obj/structure/bed,/obj/item/weapon/bedsheet/orange,/turf/simulated/floor/tiled,/area/mine/explored)
-"db" = (/turf/space,/area/smugglers/dorms)
-"dc" = (/obj/effect/shuttle_landmark/nav_asteroid_base/nav1,/turf/simulated/floor/asteroid,/area/space)
 
 (1,1,1) = {"
 cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
@@ -185,61 +166,61 @@ cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
 cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
 cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
 cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQaaaeaecQcQcQcQaecQaaaaaecQcQcQaeaecQaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQaaaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQaaaaaaaeaecQcQcQaeaeaeaaaecQcQcQaeaecQaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQaaaaaecQadadcHadadcQcQcQcQcQcQcQaaaaaeaaaaaaaacQcQcQaeaeaeaacQcQcQcQaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQaeaaaacQadafagafaaaaaacQcQcQcQcQaaaeaeaeaaaaaacQcQcQaeaeaaaaaaaacQcQaeaeaeaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQaeaaaaaaafaiafaaaeaeaaakadadadaeaeaeaeaaaaaaaaaeaeaeaealaeaeaaaaaaaaalaeaeaaaaaeaaaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQaeaaaaaeafamafafafafafanaoapafafafafafafafaaaaaeaeaeaaaeaeaeaaaaaaaaaaaeaaaaaeaeaeaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQaaaaaaaeafaqarasatauavawaxayazaAaAaBaCaDaEaFaaaaaeaeaaaeaaaaaaaaaaaaaaaaaaaaaeaeaeaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQaaaeaeafaGaHaIaHaHaJaHaKaLaMaNaNaOafafafaeaaaaaaaaaaaaaaaaaaaeaaaaaaaaaaaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQaeaaaaaeaeafaPaNaQaRaSaNaTaNaUaMaNaNaVafaeaeaeaeaeaeaeaaaaaaaeaeaaaaaaalaeaeaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQaWaXaXcQaeaeaaaYaeahaZbaaTbbaTbcbdaNbebfaMbgbhbiafaeaeaeaeaeaeaealbjaaaeaeaaaeaeaealaeaeaeaeaeaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQaWaXaXcQcQcQcQcQcQcQcQcQcQcQcQcQcQaWaWaWaXaXaeaeaaacbkbkaZbablbmbnbobpaNbpbpaMaMaMaMafaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQaWaWaXcQcQcQcQcQcQcQcQcQcQcQcQcQaWaWaXaWaWaWahalaaaebkbqbqbrbsbtbubvbpbwbpbpbxbybzbAafaeaeaaaaalaeaeaeaeaeaeaeaeaeaeaaaaaaaeaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQaXaWaWcQcQbBbBbBaWaWaWcQcQcQcQcQaWaXaXaXaWaWahaaaaalbkbCbDbEbFbGbHbIbpbpbpbJbKbLbMbNafaeaealaaaaaaaaaeaeaeaeaeaeaeaeaeaaaeaaaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQaXaWaWaWbBbBbBaWaWaWaWbBcQcQcQaXaXaXaXaWaWaWabbOacbkbPbDbabpbFbFbFbQbFbpbRbSbTbLbUaZaeaeaeaaaaaaaaaaaeaeaaaaaeaeaeaeaaaeaaaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQaXaWaWaXbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBababacacbkbVbWbabpbXbYbZcacbcccdbScecfcgaZaeaaaaaaaaaaaealaeaeaaaeaeaeaeaeaeaaaaaacQcQaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQaWaWaWaXbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBabahahbkbKbSbKchbSbSbSbSbSbSbSbSaZbkbkbkaZaeaaalaaaaaaaeaeaeaeaaaaaeaeaeaealaeaeaacQcQaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQaWaXaXbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbOajahaZcicjbSckclcmcncocpbScqcrbkacacacaeaeaaaealaeaeaeaeaeaeaaaaaaaeaeaeaaaaaaaaaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQaWaWaWaXaXbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBaXaXbOacacbkcsctcucvcwcxcyczcAcBcCcDbkacacacaealaaaeaeaeaeaeaeaeaeaeaaaaaaaeaeaaaeaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQaWaWaWaWaXaXbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBaXaXbObOaYbkcEcFbSbUcGcIcJcKcLbKcMcNbkacacacahaaaaaeaaalaeaeaeaealaeaeaeaeaeaeaaaeaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQaWaWaWaXbBbBbBbBbBbBbBbBbBbBbBbBcOcOcOcOcOaXaXaXbOaYbkbkbKbKcRbKbKaZaZaZaZaZaZaZahaeaealaaaaaaaaaaaaaeaeaaaaaeaeaeaeaeaaaaaeaeaaaaaaaaaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQaWaWaWaXbBbBbBbBbBbBbBbBbBbBbBbBcOcOcOcOcOaXaXaWabajacbkcScTcUcVcSbkacacahahahacahaeaeaeaeaaaaaeaeaaaaaaaaaeaeaeaaaaaaaaaeaeaeaaaaaaaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQaWaWaWaWbBbBbBbBbBbBbBbBbBbBbBbBcOcOcOcOcOaXaXaWabababaZbKbKcWbKbKbkacacacahacahahaaaaaaaaaaaeaeaeaaaaaeaaaaaeaeaaaeaeaeaeaeaeaaaaaaaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQaWaWaXbBbBbBbBbBbBbBbBbBbBbBbBcOcOcOcOcOaXaXaXaWababaZcXcYcZdacXbkacacacahacabbOaaaaaaaeaeaeaeaeaaaeaeaeaaaaaaaaaeaeaecQcQcQcQcQcQcQaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQaWaWaXaXbBbBbBbBbBbBbBbBbBbBbBbBcOcOcOcOcOaXaWaWaWababbkaZbkbkaZbkbkacacacacabababaeaeahaaaeaeaeaeaeaeaeaeaeaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQaWaXaXdbdbdbdbdbdbdbdbdbdbdbdbdbdbcOcOcOcOaXaWaWaWaWabbOacacacahahacacacacahacacabaaaeabaeaeaecQcQaeaeaeaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQaWaWaXdbdbdbdbdbdbdbdbdbdbdbdbdbdbaXaXaXaXaXaWaXaWaXaXbObOacacahahahacbObOababababbObObOaaaeaeaecQcQaeaeaeaeaaaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQaWaXaXdbdbdbdbdbdbdbdbdbdbdbdbdbdbaXaXaXaXaWaWaXaXaXaXbObOacbOacahababbObOabbObObObObOaaaaaaaaaecQcQaeaeaeaeaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQaWaWaWdbdbdbdbdbdbdbdbdbdbdbdbdbdbaXaXaXaXaWaWaXaWaWaXaXbObOabbObObObObObOabbObObObObOaaaaaaaaaeaeaeaeaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQaWaWdbdbdbdbdbdbdbdbdbdbdbdbdbdbaXaXaXaWaWaWaWaWaWaWaXbOababbObObObObOababbObOababababbOaaaaaaaeaeaaaaaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQaWaWaXdbdbdbdbdbdbdbaXaXaXaXaXaXaXaXaXaXaXaWaWaXaXaWababahacacbOababababbObObOabababbObOaaaaaeaeaaaaaaaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQaWaWaWdbdbdbdbdbdbdbaXaXaXaXaXaXaXaWaWaWaWaWaXaXaXaWabacahahbObOabbObObObObObOabababbObOaaaaaeaeaeaeaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQaWaWdbdbdbdbdbdbdbaXaXaXaXaXaWaWaWaWaWaXaXaXaXaXaWacacaXaWabababbObObOaaaaaaaaaaaaaabOaaaaaaaaaaaaaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQaWaWdbdbdbdbdbdbdbaXaXaXaXaWaWaWaXaXaXaWaXaXaXaXaXaXaXaXaXbObObObOaaaaaaaaaaaaaaaaaaaaaaaaaaaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQaWaWaXaXaXaXaXaXaXaXaXaXaXaXaWaWaXaWaXaXaXcQcQaXaXaXaXaXbObOaaaaaaaaaaaadcaaaaaaaaaaaaaaaaaaaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQaWaWaXaXaXaXaXaXaWaWaWaWaWaWaWaWaWaWaXaXaXcQcQaXaXaXaXabbOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeaecQcQcQcQcQcQcQcQcQcQcQcQcPcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQaWaWaXaWaXaXaWaWaWaWaWaWaWaWaWaWaWaWaWaWaXcQcQaXaXaXaXabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaXaXaXaXaXacacbOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaXaXaWaWaXaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeaeaaaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQaWaWaXaXaXaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaXaXaWaWahahaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeaeaaaaaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQaWaXaXaXaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaXaXaXaXahaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeaeaeaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQaXaXcQcQaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWahaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaXaXaXacaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaeaeaeaeaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaXaXacaeaeaecQcQcQcQaeaeaeaeaaaaaeaeaeaeaeaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaXacaeaeaeaeaecQcQcQcQcQcQaeaaaaaaaaaaaeaeaeaeaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQcQaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWacaeaeaeaacQcQcQcQcQcQcQcQcQcQcQcQaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQaXaXaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWcQcQcQaacQcQcQcQcQcQcQcQcQcQcQcQaeaeaecQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQaXaXaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaXaXaWaXaXcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQaXaXaXaXaXaWaWaWaWaWaWaWaWaWaWaWaWaWaWaXaXaWaWaWcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQaXaXaXaXaXaXaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaXaXaXaWcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQaXaXaXaXaXaXaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQaXaXaXaXaXaXaXaXaXaWaWaWaWaWaWaWaWaWaXaXaXaXaXaXaXaXcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQaXaXaXaXcQcQcQcQaXaXaXaXaWaWaXaXaXaXaXaXaXaXaXcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQaXaXaXaXaXaXcQcQcQcQcQcQaXaWaWaWaWaWaXaXaXaXaXaXaXcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQaXaXaXaXaWcQcQcQcQcQcQcQcQcQcQcQcQaXaXaXcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
-cQcQcQcQcQcQcQcQcQaWcQcQcQcQcQcQcQcQcQcQcQcQaXaXaXcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabacaccQcQcQcQaccQababaccQcQcQacaccQaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQabababacaccQcQcQacacacabaccQcQcQacaccQacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababaccQadadcHadadcQcQcQcQcQcQcQababacababababcQcQcQacacacabcQcQcQcQacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacababcQadaaaeaaabababcQcQcQcQcQabacacacabababcQcQcQacacababababcQcQacacacacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacabababaaafaaabahahabagadadadacacacacababababacacacacajacacababababajacacababacababcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacababacaaaiaaaaaaaaaaakalamaaaaaaaaaaaaaaababacacacabacacacabababababacababacacacabcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabababacaaanaoapaqarasatauavawaxaxayazaAaBaCababacacabacababababababababababacacacabcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabacacaaaDaEaFaEaEaGaEaHaIaJaKaKaLaaaaaaacabababababababababacabababababacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQahababacacaaaMaKaNaOaPaKaQaKaRaJaKaKaSaaacacacacacacacabababacacabababajacacacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQahahabajacacaaaTaQaUaQaVaWaKaXaYaJaZbabbaaacacacacacacacajbcabacacabacacacajacacacacacabcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQahahabacaaaaaaaTbdbebfbgaKaKaKaKbhbhbhbhbiacacacacacacacacacacacacababababababababcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQahajabacaabjbjaTbkblbmbnaKaQaKaKbobpbqbrbiacacababajacacacacacacacacacacabababacabcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQahababajaabsbtbuaKbvbwbxaKaKaKbybhbpbzbAbiacacajababababacacacacacacacacacabacababcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababacaabBbtaTaKaKaKaKbCaKaKbDbhbEbpbpbiacacacabababababacacababacacacacabacabaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababacacaabBbFaTaKbGbHbIbJbKbLbMbhbNbObPbiacabababababacajacacabacacacacacacabababcQcQabcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabacacbQbRbRbRbSbRbRbRbRbRbRbRbRbQbibibibiacabajabababacacacacababacacacacajacacabcQcQabcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabajacbQbTbUbRbVbWbXbYbZcabRcbccbQacacacacacabacajacacacacacacabababacacacababababacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabacacbQcdcecfcgchcicichcjckclcmbQacacacacajabacacacacacacacacacabababacacabacacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababajbQcncobRcpcqcrcsctcubRcvcwbQacacacacababacabajacacacacajacacacacacacabacacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabajbQbQbRbRcxbRbRbQbQbQbQbQbQbQacacacajababababababacacababacacacacacababacacababababaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabajacbQcyczcAcBcybQacacacacacacacacacacacababacacababababacacacababababacacacabababacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabababbQbRbRcCbRbRbQacacacacacacacabababababacacacababacababacacabacacacacacacabababacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababbQcycDcEcFcybQacacacacacabababababacacacacacabacacacababababacacaccQcQcQcQcQcQcQaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababbQbQbQbQbQbQbQacacacacabababacacacabacacacacacacacacacacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababacacacacacacacacacacacacababacabacacaccQcQacacacacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababacacacacacacababababababababababacacaccQcQacacacacabaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababacabacacababababababababababababababaccQcQacacacacabcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabababababababababababababababababababacacacacacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababababababababababababababababababababacacababaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababacacacabababababababababababababababacacababababcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabacacacababababababababababababababababacacacacabcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacaccQcQabababababababababababababababababababababcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabababababababababababababababababacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababababababababcGabababababababababacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabababababababababababababababababacaccQcQcQcQcQcQcQcQcQcQcQcQcPcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQababababababababababababababababababaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacacabababababababababababababababababababcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacacabababababababababababababababacacabacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacacacacacababababababababababababababacacabababcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacacacacacacabababababababababababababababacacacabcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacacacacacacababababababababababababababababababababcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacacacacacacacacacabababababababababacacacacacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacacacaccQcQcQcQacacacacababacacacacacacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacacacacacaccQcQcQcQcQcQacabababababacacacacacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQacacacacabcQcQcQcQcQcQcQcQcQcQcQcQacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQabcQcQcQcQcQcQcQcQcQcQcQcQacacaccQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
+cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
 cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
 cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ
 cQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQ

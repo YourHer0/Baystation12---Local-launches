@@ -1,6 +1,6 @@
 /datum/job/submap/unishi_crew
 	title = "Crew"
-	total_positions = 1
+	total_positions = 2
 	outfit_type = /decl/hierarchy/outfit/job/unishi/crew
 	supervisors = "your survival"
 	info = "You remember waking up to alarms blaring in your face. Before you could react, a gush of hot air blew \
@@ -31,9 +31,10 @@
 	shoes = /obj/item/clothing/shoes/black
 	belt = /obj/item/weapon/storage/belt/utility/full
 
+
 /decl/hierarchy/outfit/job/unishi/researcher
 	name = UNISHI_OUTFIT_JOB_NAME("Researcher")
-	uniform = /obj/item/clothing/under/rank/engineer
+	uniform = /obj/item/clothing/under/rank/scientist
 	suit = /obj/item/clothing/suit/storage/toggle/hoodie/cti
 	shoes = /obj/item/clothing/shoes/black
 	r_pocket = /obj/item/device/radio
