@@ -125,14 +125,15 @@
 	job_access_type = /datum/job/sea
 
 /obj/item/weapon/card/id/torch/crew/bridgeofficer
-	job_access_type = /datum/job/bridgeofficer
+	job_access_type = /datum/job/bridgeofficer */
 
 /obj/item/weapon/card/id/torch/crew/pathfinder
-	job_access_type = /datum/job/pathfinder
+	job_access_type = /datum/job/rd
 
 /obj/item/weapon/card/id/torch/crew/explorer
-	job_access_type = /datum/job/explorer
+	job_access_type = /datum/job/scientist
 
+/*
 /obj/item/weapon/card/id/torch/crew/pilot
 	job_access_type = /datum/job/nt_pilot
 

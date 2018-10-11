@@ -2951,6 +2951,8 @@
 #include "maps\bearcat_loc\bearcat-2.dmm"
 #include "maps\bearcat_loc\bearcat-3.dmm"
 #include "maps\bearcat_loc\bearcat-4.dmm"
+#include "maps\bearcat_loc\items\cards_ids.dm"
+#include "maps\bearcat_loc\items\encryption_keys.dm"
 #include "maps\bearcat_loc\items\headsets.dm"
 #include "maps\bearcat_loc\items\items.dm"
 #include "maps\bearcat_loc\items\manuals.dm"

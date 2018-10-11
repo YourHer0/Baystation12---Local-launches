@@ -1,5 +1,5 @@
 /datum/map/bearcat
-	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/officer, /datum/job/cmo, /datum/job/doctor, /datum/job/Paramedic, /datum/job/chief_engineer, /datum/job/engineer, /datum/job/qm, /datum/job/cargo_tech , /datum/job/assistant, /datum/job/bartender, /datum/job/mining, /datum/job/roboticist, /datum/job/cyborg, /datum/job/merchant )
+	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/officer, /datum/job/cmo, /datum/job/doctor, /datum/job/Paramedic, /datum/job/chief_engineer, /datum/job/engineer, /datum/job/qm, /datum/job/cargo_tech , /datum/job/assistant, /datum/job/bartender, /datum/job/mining, /datum/job/rd, /datum/job/sintor_scientist, /datum/job/explorer, /datum/job/roboticist, /datum/job/cyborg, /datum/job/merchant )
 
 /datum/job/captain
 	supervisors = "the Merchant Code and your conscience"
@@ -11,7 +11,7 @@
 
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
 	                    SKILL_SCIENCE     = SKILL_MAX)
-	skill_points = 30
+	skill_points = 28
 
 /datum/job/captain/equip(var/mob/living/carbon/human/H)
 	. = ..()
@@ -65,7 +65,7 @@
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
 	                    SKILL_SCIENCE     = SKILL_MAX)
 
-	skill_points = 32
+	skill_points = 20
 	access = list(access_security, access_sec_doors, access_brig, access_forensics_lockers,
 			            access_medical, access_engine, access_change_ids, access_ai_upload, access_eva, access_heads,
 			            access_all_personal_lockers, access_maint_tunnels, access_bar, access_janitor, access_construction, access_morgue,
@@ -92,7 +92,7 @@
 	                    SKILL_ELECTRICAL   = SKILL_MAX,
 	                    SKILL_ATMOS        = SKILL_MAX,
 	                    SKILL_ENGINES      = SKILL_MAX)
-	skill_points = 30
+	skill_points = 24
 
 /datum/job/cmo
 	title = "Consultant"
@@ -111,22 +111,40 @@
 	                    SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_CHEMISTRY   = SKILL_MAX,
 	                    SKILL_VIROLOGY    = SKILL_MAX)
-	skill_points = 32
+	skill_points = 24
 	access = list(access_medical_equip, access_kitchen)
 
-/*/datum/job/scientist
-	title = "Explorer"
+/datum/job/rd
+	title = "Lieutenant"
 	department = "Exploration Corps"
-	department_flag = EC
-	supervisors = "the Lieutenant"
-	outfit_type = /decl/hierarchy/outfit/job/bearcat/doc
+	selection_color = "#68099e"
+	supervisors = "the Great Unknown"
+	outfit_type = /decl/hierarchy/outfit/job/bearcat/pathfinder
+	hud_icon = "hudresearchdirector"
+	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
+	                    SKILL_MEDICAL = SKILL_BASIC,
+	                    SKILL_ANATOMY = SKILL_BASIC)
+
+	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
+	                    SKILL_ANATOMY     = SKILL_MAX,
+	                    SKILL_CHEMISTRY   = SKILL_MAX,
+	                    SKILL_VIROLOGY    = SKILL_MAX)
+	skill_points = 22
+
+	access = list(access_medical_equip, access_kitchen)
+
+/datum/job/sintor_scientist
+	title = "Senior Explorer"
+	department = "Exploration Corps"
+	selection_color = "#68099e"
+	supervisors = "the Pathfinder"
 	alt_titles = list(
-		"Chief Explorer",
-		"Senior Explorer",
+		"Chief Explorer" = /decl/hierarchy/outfit/job/bearcat/chief_explorer
 		)
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 1
+	spawn_positions = 1
 	hud_icon = "hudscientist"
+
 	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
 	                    SKILL_MEDICAL = SKILL_BASIC,
 	                    SKILL_ANATOMY = SKILL_BASIC)
@@ -137,15 +155,18 @@
 	                    SKILL_VIROLOGY    = SKILL_MAX)
 	skill_points = 18
 
-	access = list(access_medical_equip, access_kitchen)*/
+	software_on_spawn = list(/datum/computer_file/program/deck_management)
+	access = list(access_medical_equip, access_kitchen)
 
-/*/datum/job/rd
-	title = "Lieutenant"
+/datum/job/explorer
+	title = "Explorer"
 	department = "Exploration Corps"
-	department_flag = EC
-	supervisors = "the Great Unknown"
-	outfit_type = /decl/hierarchy/outfit/job/bearcat/doc
-	hud_icon = "hudresearchdirector"
+	selection_color = "#68099e"
+	supervisors = "the Pathfinder and Senior Explorer"
+	outfit_type = /decl/hierarchy/outfit/job/bearcat/explorer
+	total_positions = 2
+	spawn_positions = 2
+	hud_icon = "hudscientist"
 	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
 	                    SKILL_MEDICAL = SKILL_BASIC,
 	                    SKILL_ANATOMY = SKILL_BASIC)
@@ -154,9 +175,10 @@
 	                    SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_CHEMISTRY   = SKILL_MAX,
 	                    SKILL_VIROLOGY    = SKILL_MAX)
-	skill_points = 28
+	skill_points = 16
 
-	access = list(access_medical_equip, access_kitchen)*/
+	software_on_spawn = list(/datum/computer_file/program/deck_management)
+	access = list(access_medical_equip, access_kitchen)
 
 /datum/job/qm
 	title = "Quartermaster"
@@ -273,7 +295,7 @@
 
 	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
 	                    SKILL_VIROLOGY    = SKILL_MAX)
-	skill_points = 24
+	skill_points = 22
 	alt_titles = list(
 		"Surgeon")
 	access = list(access_medical_equip)
@@ -295,7 +317,7 @@
 	                    SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_CHEMISTRY   = SKILL_MAX,
 	                    SKILL_VIROLOGY    = SKILL_MAX)
-	skill_points = 28
+	skill_points = 24
 
 	access = list(access_medical_equip)
 
@@ -308,6 +330,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/hand/cook
 	total_positions = 1
 	spawn_positions = 1
+	skill_points = 16
 	min_skill = list(   SKILL_COOKING   = SKILL_BASIC,
 	                    SKILL_BOTANY    = SKILL_BASIC,
 	                    SKILL_CHEMISTRY = SKILL_BASIC)
@@ -328,13 +351,18 @@
 //	allowed_ranks = list(/datum/mil_rank/civ/civ)
 	latejoin_at_spawnpoints = 1
 
-	access = list(access_merchant)
+	access = list(access_merchant,access_emergency_storage, access_tech_storage,  access_cargo,
+						access_cargo_bot, access_qm, access_mailsorting)
+
+	software_on_spawn = list(/datum/computer_file/program/supply,
+							 /datum/computer_file/program/deck_management,
+							 /datum/computer_file/program/reports)
 	minimal_access = list()
 
 	announced = FALSE
 	min_skill = list(	SKILL_FINANCE = SKILL_ADEPT,
 						SKILL_PILOT	  = SKILL_BASIC)
-	skill_points = 24
+	skill_points = 18
 
 /datum/job/assistant
 	title = "Crew member"
@@ -530,6 +558,37 @@
 	shoes = /obj/item/clothing/shoes/black
 	id_type = /obj/item/weapon/card/id/civilian/bartender
 
+/decl/hierarchy/outfit/job/bearcat/pathfinder
+	name = OUTFIT_JOB_NAME("Pathfinder")
+	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/officer/exploration
+	shoes = /obj/item/clothing/shoes/dutyboots
+	id_type = /obj/item/weapon/card/id/torch/crew/pathfinder
+	pda_type = /obj/item/modular_computer/pda/explorer
+	l_hand = /obj/item/clothing/accessory/solgov/rank/ec/officer/o3
+
+/decl/hierarchy/outfit/job/bearcat/sintor_explorer
+	name = OUTFIT_JOB_NAME("Sintor Explorer")
+	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/exploration
+	shoes = /obj/item/clothing/shoes/dutyboots
+	id_type = /obj/item/weapon/card/id/torch/crew/explorer
+	pda_type = /obj/item/modular_computer/pda/explorer
+	l_hand = /obj/item/clothing/accessory/solgov/rank/ec/enlisted/e5
+
+/decl/hierarchy/outfit/job/bearcat/chief_explorer
+	name = OUTFIT_JOB_NAME("Chief Explorer ")
+	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/exploration
+	shoes = /obj/item/clothing/shoes/dutyboots
+	id_type = /obj/item/weapon/card/id/torch/crew/explorer
+	pda_type = /obj/item/modular_computer/pda/explorer
+	l_hand = /obj/item/clothing/accessory/solgov/rank/ec/enlisted/e7
+
+/decl/hierarchy/outfit/job/bearcat/explorer
+	name = OUTFIT_JOB_NAME("Explorer")
+	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/exploration
+	shoes = /obj/item/clothing/shoes/dutyboots
+	id_type = /obj/item/weapon/card/id/torch/crew/explorer
+	pda_type = /obj/item/modular_computer/pda/explorer
+	l_hand = /obj/item/clothing/accessory/solgov/rank/ec/enlisted/e3
 
 /decl/hierarchy/outfit/job/bearcat/roboticist
 	name = BEARCAT_OUTFIT_JOB_NAME("Roboticist")
@@ -570,6 +629,7 @@
 
 /decl/hierarchy/outfit/job/bearcat/investor
 	name = OUTFIT_JOB_NAME("Investor")
+	l_hand = /obj/item/weapon/storage/secure/briefcase/money/low
 
 /decl/hierarchy/outfit/job/bearcat/investor/post_equip(var/mob/living/carbon/human/H)
 	..()

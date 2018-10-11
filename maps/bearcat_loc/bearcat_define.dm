@@ -15,8 +15,8 @@
 
 	station_levels = list(1,2,3)
 	contact_levels = list(1,2,3)
-	player_levels = list(1,2,3)
-	admin_levels = list(4)
+	player_levels = list(1,2,3,4)
+	//admin_levels = list(4)
 
 	shuttle_docked_message = "Attention all hands: Jump preparation complete. The bluespace drive is now spooling up, secure all stations for departure. Time to jump: approximately %ETD%."
 	shuttle_leaving_dock = "Attention all hands: Jump initiated, exiting bluespace in %ETA%."
@@ -32,7 +32,7 @@
 	default_spawn = "Cryogenic Storage"
 	use_overmap = 1
 	num_exoplanets = 0
-	away_site_budget = 20
+	away_site_budget = 11
 	welcome_sound = 'sound/effects/meteors.ogg'
 
 	map_admin_faxes = list("FTU Merchant Office")
@@ -57,8 +57,3 @@
 	SStrade.traders += new /datum/trader/xeno_shop
 	SStrade.traders += new /datum/trader/medical
 	SStrade.traders += new /datum/trader/mining
-/*	SStrade.traders += new /datum/trader/robots
-	SStrade.traders += new /datum/trader/devices
-	SStrade.traders += new /datum/trader/electronics
-	SStrade.traders += new /datum/trader/toyshop
-	SStrade.traders += new /datum/trader/clothingshop*/
