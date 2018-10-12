@@ -64,7 +64,6 @@
 	cost = 70
 	containername = "\improper Phoron gas canister crate"
 	containertype = /obj/structure/closet/crate/secure/large
-	access = access_atmospherics
 
 /decl/hierarchy/supply_pack/atmospherics/canister_hydrogen
 	name = "Gas - Hydrogen canister"
@@ -72,7 +71,6 @@
 	cost = 25
 	containername = "\improper Hydrogen canister crate"
 	containertype = /obj/structure/closet/crate/secure/large
-	access = access_atmospherics
 
 /decl/hierarchy/supply_pack/atmospherics/canister_sleeping_agent
 	name = "Gas - N2O gas canister"
@@ -80,7 +78,6 @@
 	cost = 40
 	containername = "\improper N2O gas canister crate"
 	containertype = /obj/structure/closet/crate/secure/large
-	access = access_atmospherics
 
 /decl/hierarchy/supply_pack/atmospherics/canister_carbon_dioxide
 	name = "Gas - Carbon dioxide gas canister"
@@ -88,7 +85,7 @@
 	cost = 40
 	containername = "\improper CO2 canister crate"
 	containertype = /obj/structure/closet/crate/secure/large
-	access = access_atmospherics
+
 
 /decl/hierarchy/supply_pack/atmospherics/fuel
 	name = "Liquid - Fuel tank crate"
@@ -110,7 +107,6 @@
 	cost = 120
 	containername = "\improper Atmospherics voidsuit crate"
 	containertype = /obj/structure/closet/crate/secure/large
-	access = access_atmospherics
 
 /decl/hierarchy/supply_pack/atmospherics/scanner_module
 	name = "Electronics - Atmospherics scanner module crate"
@@ -118,4 +114,3 @@
 	cost = 20
 	containername = "\improper Atmospherics scanner module crate"
 	containertype = /obj/structure/closet/crate/secure
-	access = access_atmospherics

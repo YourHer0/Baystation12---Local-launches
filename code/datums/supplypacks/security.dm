@@ -17,7 +17,6 @@
 	cost = 30
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Light armor crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/armor
 	name = "Armor - Unmarked"
@@ -26,7 +25,6 @@
 	cost = 20
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Armor crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/tacticalarmor
 	name = "Armor - Tactical"
@@ -41,7 +39,6 @@
 	cost = 45
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Tactical armor crate"
-	access = access_armory
 
 /decl/hierarchy/supply_pack/security/blackguards
 	name = "Armor - Arm and leg guards, black"
@@ -50,7 +47,6 @@
 	cost = 20
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Arm and leg guards crate"
-	access = access_armory
 
 /decl/hierarchy/supply_pack/security/blueguards
 	name = "Armor - Arm and leg guards, blue"
@@ -59,7 +55,6 @@
 	cost = 20
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Arm and leg guards crate"
-	access = access_armory
 
 /decl/hierarchy/supply_pack/security/greenguards
 	name = "Armor - Arm and leg guards, green"
@@ -68,7 +63,6 @@
 	cost = 20
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Arm and leg guards crate"
-	access = access_armory
 
 /decl/hierarchy/supply_pack/security/navyguards
 	name = "Armor - Arm and leg guards, navy blue"
@@ -77,7 +71,6 @@
 	cost = 20
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Arm and leg guards crate"
-	access = access_armory
 
 /decl/hierarchy/supply_pack/security/tanguards
 	name = "Armor - Arm and leg guards, tan"
@@ -86,7 +79,6 @@
 	cost = 20
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Arm and leg guards crate"
-	access = access_armory
 
 /decl/hierarchy/supply_pack/security/riotarmor
 	name = "Armor - Riot gear"
@@ -98,7 +90,6 @@
 	cost = 80
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Riot armor crate"
-	access = access_armory
 
 /decl/hierarchy/supply_pack/security/ballisticarmor
 	name = "Armor - Ballistic"
@@ -107,7 +98,6 @@
 	cost = 60
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Ballistic suit crate"
-	access = access_armory
 
 /decl/hierarchy/supply_pack/security/ablativearmor
 	name = "Armor - Ablative"
@@ -116,7 +106,6 @@
 	cost = 60
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Ablative suit crate"
-	access = access_armory
 
 /decl/hierarchy/supply_pack/security/weapons
 	name = "Weapons - Security basic"
@@ -127,7 +116,6 @@
 	cost = 50
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper Weapons crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/egun
 	name = "Weapons - Energy sidearms"
@@ -135,7 +123,6 @@
 	cost = 40
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper Energy sidearms crate"
-	access = access_armory
 	security_level = SUPPLY_SECURITY_ELEVATED
 
 /decl/hierarchy/supply_pack/security/egun/shady
@@ -152,7 +139,6 @@
 	cost = 50
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper Electromagnetic weapons crate"
-	access = access_armory
 	security_level = SUPPLY_SECURITY_ELEVATED
 
 /decl/hierarchy/supply_pack/security/shotgun
@@ -161,7 +147,6 @@
 	cost = 60
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper Shotgun crate"
-	access = access_armory
 	security_level = SUPPLY_SECURITY_ELEVATED
 
 /decl/hierarchy/supply_pack/security/flashbang
@@ -170,7 +155,6 @@
 	cost = 30
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper Flashbang crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/teargas
 	name = "Weapons - Tear gas grenades"
@@ -178,7 +162,6 @@
 	cost = 30
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper Tear gas grenades crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/shotgunammo
 	name = "Ammunition - Lethal shells"
@@ -187,7 +170,6 @@
 	cost = 60
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper Lethal shotgun shells crate"
-	access = access_security
 	security_level = SUPPLY_SECURITY_ELEVATED
 
 /decl/hierarchy/supply_pack/security/shotgunbeanbag
@@ -196,7 +178,6 @@
 	cost = 30
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper Beanbag shotgun shells crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/pdwammo
 	name = "Ammunition - 9mm top mounted"
@@ -204,7 +185,6 @@
 	cost = 40
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper 9mm ammunition crate"
-	access = access_security
 	security_level = SUPPLY_SECURITY_HIGH
 
 /decl/hierarchy/supply_pack/security/pdwammorubber
@@ -213,8 +193,6 @@
 	cost = 30
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper 9mm rubber ammunition crate"
-	access = access_security
-
 
 /decl/hierarchy/supply_pack/security/pdwammoflash
 	name = "Ammunition - 9mm top mounted flash"
@@ -222,7 +200,6 @@
 	cost = 30
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper 9mm stun ammunition crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/pdwammopractice
 	name = "Ammunition - 9mm top mounted practice"
@@ -230,7 +207,6 @@
 	cost = 30
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper 9mm practice ammunition crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/bullpupammo
 	name = "Ammunition - 7.62"
@@ -238,7 +214,6 @@
 	cost = 60
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper 7.62 ammunition crate"
-	access = access_security
 	security_level = SUPPLY_SECURITY_HIGH
 
 /decl/hierarchy/supply_pack/security/bullpupammopractice
@@ -247,7 +222,6 @@
 	cost = 30
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper 7.62 practice ammunition crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/forensics //Not access-restricted so PIs can use it.
 	name = "Forensics - Auxiliary tools"
@@ -277,7 +251,6 @@
 	cost = 50
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Forensic equipment crate"
-	access = access_forensics_lockers
 
 /decl/hierarchy/supply_pack/security/securitybarriers
 	name = "Equipment - Barrier crate"
@@ -285,7 +258,6 @@
 	cost = 20
 	containertype = /obj/structure/closet/crate/secure/large
 	containername = "\improper Security barrier crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/securitybarriers
 	name = "Equipment - Wall shield Generators"
@@ -293,7 +265,6 @@
 	cost = 20
 	containertype = /obj/structure/closet/crate/secure/large
 	containername = "\improper wall shield generators crate"
-	access = access_brig
 
 /decl/hierarchy/supply_pack/security/securitybiosuit
 	name = "Gear - Security biohazard gear"
@@ -305,7 +276,6 @@
 	cost = 30
 	containertype = /obj/structure/closet/crate/secure
 	containername = "\improper Security biohazard gear crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/voidsuit_security
 	name = "EVA - Security (armored) voidsuit"
@@ -315,4 +285,3 @@
 	cost = 120
 	containername = "\improper Security voidsuit crate"
 	containertype = /obj/structure/closet/crate/secure/large
-	access = access_brig

@@ -64,7 +64,6 @@
 	cost = 120
 	containername = "\improper Engineering voidsuit crate"
 	containertype = /obj/structure/closet/crate/secure/large
-	access = access_engine
 
 /decl/hierarchy/supply_pack/operations/voidsuit_medical
 	name = "EVA - Medical voidsuit"
@@ -74,7 +73,6 @@
 	cost = 120
 	containername = "\improper Medical voidsuit crate"
 	containertype = /obj/structure/closet/crate/secure/large
-	access = access_medical_equip
 
 /decl/hierarchy/supply_pack/operations/voidsuit_security
 	name = "EVA - Security (armored) voidsuit"
@@ -84,7 +82,6 @@
 	cost = 120
 	containername = "\improper Security voidsuit crate"
 	containertype = /obj/structure/closet/crate/secure/large
-	access = access_brig
 
 /decl/hierarchy/supply_pack/operations/bureaucracy
 	contains = list(/obj/item/weapon/clipboard,

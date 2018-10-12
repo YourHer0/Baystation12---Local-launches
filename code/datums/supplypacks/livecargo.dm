@@ -45,18 +45,15 @@
 	cost = 80
 	containertype = /obj/structure/largecrate/animal/cow
 	containername = "\improper Cow crate"
-	access = access_hydroponics
 
 /decl/hierarchy/supply_pack/livecargo/goat
 	name = "Live - Goat crate"
 	cost = 75
 	containertype = /obj/structure/largecrate/animal/goat
 	containername = "\improper Goat crate"
-	access = access_hydroponics
 
 /decl/hierarchy/supply_pack/livecargo/chicken
 	name = "Live - Chicken crate"
 	cost = 70
 	containertype = /obj/structure/largecrate/animal/chick
 	containername = "\improper Chicken crate"
-	access = access_hydroponics

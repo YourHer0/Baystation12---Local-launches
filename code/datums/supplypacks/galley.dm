@@ -156,7 +156,6 @@
 	cost = 50
 	containertype = /obj/structure/closet/crate/secure
 	containername = "alcoholic drinks crate"
-	access = list(access_bar)
 
 /decl/hierarchy/supply_pack/galley/softdrink_reagents
 	name = "Refills - soft drink dispenser refill"
