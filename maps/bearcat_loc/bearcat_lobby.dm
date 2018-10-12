@@ -1,10 +1,6 @@
 /datum/map/bearcat
-  lobby_tracks = list(
-        /music_track/chasing_time,
-        /music_track/torch,
-        /music_track/human,
-        /music_track/marhaba,
-        /music_track/treacherous_voyage,
-        /music_track/comet_haley,
-        /music_track/lysendraa,
-        /music_track/lasers)
+	lobby_icon = 'maps/bearcat_loc/bearcat_lobby.dmi'
+	lobby_tracks = list(
+		/music_track/stranding,
+		/music_track/serenity,
+		/music_track/fidelity)
