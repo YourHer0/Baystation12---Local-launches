@@ -47,7 +47,7 @@
 	display_name = "holster selection"
 	sort_category = "Utility"
 	path = /obj/item/clothing/accessory/storage/holster
-	allowed_roles = list(/datum/job/captain, /datum/job/chief_engineer, /datum/job/hop, /datum/job/officer, /datum/job/qm)
+	allowed_roles = list(/datum/job/captain, /datum/job/chief_engineer, /datum/job/hop, /datum/job/officer)
 	cost = 1
 
 /datum/gear/accessory/holster/New()

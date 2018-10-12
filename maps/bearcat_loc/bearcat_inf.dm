@@ -3,6 +3,7 @@
 	#include "bearcat_overmap.dm"
 	#include "bearcat_define.dm"
 	#include "bearcat_jobs.dm"
+	#include "bearcat_lobby.dm"
 	#include "bearcat_loadouts.dm"
 	#include "bearcat_misc.dm"
 	#include "bearcat_unit_testing.dm"
