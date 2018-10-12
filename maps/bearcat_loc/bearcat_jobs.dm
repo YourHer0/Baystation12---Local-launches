@@ -1,5 +1,5 @@
 /datum/map/bearcat
-	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/officer, /datum/job/cmo, /datum/job/doctor, /datum/job/Paramedic, /datum/job/chief_engineer, /datum/job/engineer, /datum/job/qm, /datum/job/cargo_tech , /datum/job/assistant, /datum/job/bartender, /datum/job/mining, /datum/job/rd, /datum/job/sintor_scientist, /datum/job/explorer, /datum/job/roboticist, /datum/job/cyborg, /datum/job/merchant )
+	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/officer, /datum/job/cmo, /datum/job/doctor, /datum/job/Paramedic, /datum/job/chief_engineer, /datum/job/engineer, /datum/job/assistant, /datum/job/bartender, /datum/job/rd, /datum/job/sintor_scientist, /datum/job/explorer, /datum/job/roboticist, /datum/job/cyborg, /datum/job/merchant )
 
 /datum/job/captain
 	supervisors = "the Merchant Code and your conscience"
@@ -74,12 +74,12 @@
 			            access_hop, access_RC_announce, access_keycard_auth, access_gateway, access_fist_mate)
 
 /datum/job/chief_engineer
-	title = "Senior Engineer"
+	title = "Senior Technicin"
 	department = "Engineering"
 	department_flag = ENG
 	supervisors = "the Captain"
 	economic_power = 3
-	outfit_type = /decl/hierarchy/outfit/job/bearcat/senior_engineer
+	outfit_type = /decl/hierarchy/outfit/job/bearcat/senior_technicin
 	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_BASIC,
 	                    SKILL_COMPUTER     = SKILL_ADEPT,
 	                    SKILL_EVA          = SKILL_ADEPT,
@@ -180,63 +180,6 @@
 	software_on_spawn = list(/datum/computer_file/program/deck_management)
 	access = list(access_medical_equip, access_kitchen)
 
-/datum/job/qm
-	title = "Quartermaster"
-	supervisors = "your greed, the Captain and the First Officer."
-	department_flag = SUP
-	selection_color = "#515151"
-	outfit_type = /decl/hierarchy/outfit/job/bearcat/qm
-	total_positions = 1
-	spawn_positions = 1
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,
-	                    SKILL_FINANCE     = SKILL_BASIC,
-	                    SKILL_HAULING     = SKILL_BASIC,
-	                    SKILL_EVA         = SKILL_BASIC,
-	                    SKILL_PILOT       = SKILL_BASIC)
-
-	max_skill = list(   SKILL_PILOT       = SKILL_MAX)
-	skill_points = 18
-
-/datum/job/cargo_tech
-	title = "Rigger"
-	department = "Supply"
-	department_flag = SUP
-	selection_color = "#515151"
-	total_positions = 2
-	spawn_positions = 2
-	supervisors = "Quartermaster, the Captain and the First Officer"
-	outfit_type = /decl/hierarchy/outfit/job/bearcat/tech
-//	allowed_branches = list(/datum/mil_branch/civilian)
-//	allowed_ranks = list(/datum/mil_rank/civ/nt)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_FINANCE     = SKILL_BASIC,
-	                    SKILL_HAULING     = SKILL_BASIC)
-	skill_points = 14
-
-/datum/job/mining
-	title = "Prospector"
-	department = "Supply"
-	department_flag = SUP
-	selection_color = "#515151"
-	total_positions = 2
-	spawn_positions = 2
-	supervisors = "Quartermaster, the Captain and the First Officer"
-	economic_power = 2
-	alt_titles = list(
-		"Drill Technician",
-		"Shaft Miner",
-		"Salvage Technician")
-	min_skill = list(   SKILL_MECH    = SKILL_BASIC,
-	                    SKILL_HAULING = SKILL_ADEPT,
-	                    SKILL_EVA     = SKILL_BASIC)
-
-	max_skill = list(   SKILL_PILOT   = SKILL_MAX)
-
-	outfit_type = /decl/hierarchy/outfit/job/bearcat/prospector
-//	allowed_branches = list(/datum/mil_branch/civilian)
-//	allowed_ranks = list(/datum/mil_rank/civ/nt)
-	skill_points = 14
-
 /datum/job/officer
 	title = "Security"
 	supervisors = "the Captain and his laws."
@@ -258,13 +201,25 @@
 	                    SKILL_FORENSICS   = SKILL_MAX)
 	skill_points = 18
 
+
 /datum/job/engineer
-	title = "Junior Engineer"
-	supervisors = "Chief Engineer"
-	total_positions = 3
-	spawn_positions = 3
+	title = "Maintenance Technician"
+	supervisors = "Chief Technician and Captain"
+	outfit_type = /decl/hierarchy/outfit/job/bearcat/technicin
+	department_flag = ENG
+	total_positions = 5
+	spawn_positions = 5
+	economic_power = 3
 	hud_icon = "hudengineer"
-	alt_titles = null
+	alt_titles = list(
+		"Engine Technician",
+		"Information Systems Technician",
+		"Damage Control Technician",
+		"EVA Technician",
+		"Drill Technician" = /decl/hierarchy/outfit/job/bearcat/miner,
+		"Atmospheric Technician" = /decl/hierarchy/outfit/job/bearcat/atmospheric,
+		)
+
 	min_skill = list(   SKILL_COMPUTER     = SKILL_BASIC,
 	                    SKILL_EVA          = SKILL_BASIC,
 	                    SKILL_CONSTRUCTION = SKILL_ADEPT,
@@ -275,8 +230,10 @@
 	max_skill = list(   SKILL_CONSTRUCTION = SKILL_MAX,
 	                    SKILL_ELECTRICAL   = SKILL_MAX,
 	                    SKILL_ATMOS        = SKILL_MAX,
-	                    SKILL_ENGINES      = SKILL_MAX)
+	                    SKILL_ENGINES      = SKILL_MAX,
+	                    SKILL_PILOT        = SKILL_MAX)
 	skill_points = 20
+
 
 /datum/job/doctor
 	title = "Doctor"
@@ -351,8 +308,8 @@
 //	allowed_ranks = list(/datum/mil_rank/civ/civ)
 	latejoin_at_spawnpoints = 1
 
-	access = list(access_merchant,access_emergency_storage, access_tech_storage,  access_cargo,
-						access_cargo_bot, access_qm, access_mailsorting)
+	access = list(access_merchant, access_emergency_storage, access_tech_storage,  access_cargo,
+						access_cargo_bot, access_qm, access_mailsorting, access_hop)
 
 	software_on_spawn = list(/datum/computer_file/program/supply,
 							 /datum/computer_file/program/deck_management,
@@ -408,7 +365,6 @@
 
 /datum/job/cyborg
 	supervisors = "your laws and the Captain"
-	outfit_type = /decl/hierarchy/outfit/job/bearcat/hand/engine
 	total_positions = 1
 	spawn_positions = 1
 
@@ -433,8 +389,8 @@
 	id_type = /obj/item/weapon/card/id/gold
 
 
-/decl/hierarchy/outfit/job/bearcat/senior_engineer
-	name = BEARCAT_OUTFIT_JOB_NAME("Senior Engineer")
+/decl/hierarchy/outfit/job/bearcat/senior_technicin
+	name = BEARCAT_OUTFIT_JOB_NAME("Senior Technicin")
 	uniform = /obj/item/clothing/under/rank/chief_engineer
 	suit = /obj/item/clothing/suit/storage/hazardvest
 	gloves = /obj/item/clothing/gloves/thick
@@ -445,9 +401,24 @@
 	id_type = /obj/item/weapon/card/id/engineering/head
 	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
 
-/decl/hierarchy/outfit/job/bearcat/hand/engine
-	name = BEARCAT_OUTFIT_JOB_NAME("Junior Engineer")
+/decl/hierarchy/outfit/job/bearcat/technicin
+	name = BEARCAT_OUTFIT_JOB_NAME("Maintenance Technician")
 	head = /obj/item/clothing/head/hardhat
+	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
+
+/decl/hierarchy/outfit/job/bearcat/atmospheric
+	name = BEARCAT_OUTFIT_JOB_NAME("Atmospheric Technician")
+	uniform = /obj/item/clothing/under/rank/atmospheric_technician
+	belt = /obj/item/weapon/storage/belt/utility/atmostech
+	id_type = /obj/item/weapon/card/id/engineering/atmos
+
+/decl/hierarchy/outfit/job/bearcat/miner
+	name = BEARCAT_OUTFIT_JOB_NAME("Drill Technician")
+	uniform = /obj/item/clothing/under/rank/miner
+	shoes = /obj/item/clothing/shoes/workboots/alt
+	belt = /obj/item/weapon/storage/belt/utility
+	r_pocket = /obj/item/device/radio
+	backpack_contents = list(/obj/item/weapon/crowbar = 1, /obj/item/weapon/storage/ore = 1)
 	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
 
 /decl/hierarchy/outfit/job/bearcat/cmo
@@ -489,24 +460,6 @@
 	glasses = /obj/item/clothing/glasses/sunglasses/big
 	l_pocket = /obj/item/weapon/gun/projectile/sec/lethal
 	r_pocket = /obj/item/weapon/clipboard
-
-/decl/hierarchy/outfit/job/bearcat/qm
-	name = BEARCAT_OUTFIT_JOB_NAME("Quartermaster")
-	uniform = /obj/item/clothing/under/rank/cargo
-	shoes = /obj/item/clothing/shoes/brown
-	glasses = /obj/item/clothing/glasses/sunglasses
-	r_pocket = /obj/item/weapon/clipboard
-	id_type = /obj/item/weapon/card/id/cargo/head
-
-/decl/hierarchy/outfit/job/bearcat/prospector
-	name = BEARCAT_OUTFIT_JOB_NAME("Prospector")
-	uniform = /obj/item/clothing/under/rank/miner
-	shoes = /obj/item/clothing/shoes/workboots/alt
-	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
-
-/decl/hierarchy/outfit/job/bearcat/tech
-	name = BEARCAT_OUTFIT_JOB_NAME("Rigger")
-	uniform = /obj/item/clothing/under/rank/cargotech
 
 /decl/hierarchy/outfit/job/bearcat/security
 	name = BEARCAT_OUTFIT_JOB_NAME("Security")
@@ -630,8 +583,3 @@
 /decl/hierarchy/outfit/job/bearcat/investor
 	name = OUTFIT_JOB_NAME("Investor")
 	l_hand = /obj/item/weapon/storage/secure/briefcase/money/low
-
-/decl/hierarchy/outfit/job/bearcat/investor/post_equip(var/mob/living/carbon/human/H)
-	..()
-	var/obj/item/weapon/storage/secure/briefcase/money/case = new(H.loc)
-	H.put_in_hands(case)

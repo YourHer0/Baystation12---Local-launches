@@ -25,8 +25,7 @@
 
 	evac_controller_type = /datum/evacuation_controller/lifepods
 	evac_controller_type = /datum/evacuation_controller/starship
-	lobby_icon = 'maps/bearcat_loc/bearcat_lobby.dmi'
-	lobby_screens = list("spess","aesthetic")
+
 
 	allowed_spawns = list("Cryogenic Storage")
 	default_spawn = "Cryogenic Storage"
