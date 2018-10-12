@@ -147,6 +147,7 @@
 	/obj/item/weapon/crowbar, /obj/item/weapon/screwdriver, /obj/item/weapon/weldingtool, /obj/item/weapon/wirecutters, /obj/item/weapon/wrench, /obj/item/weapon/tank/emergency, \
 	/obj/item/clothing/mask/gas, /obj/item/taperoll/engineering)
 	body_parts_covered = UPPER_TORSO
+	armor = list(melee = 40, bullet = 25, laser = 15, energy = 10, bomb = 20, bio = 0, rad = 10)
 
 /obj/item/clothing/suit/storage/hazardvest/blue
 	name = "blue hazard vest"

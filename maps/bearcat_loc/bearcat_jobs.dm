@@ -392,9 +392,10 @@
 /decl/hierarchy/outfit/job/bearcat/senior_technicin
 	name = BEARCAT_OUTFIT_JOB_NAME("Senior Technicin")
 	uniform = /obj/item/clothing/under/rank/chief_engineer
-	suit = /obj/item/clothing/suit/storage/hazardvest
+	suit = /obj/item/clothing/suit/storage/hazardvest/white
 	gloves = /obj/item/clothing/gloves/thick
 	shoes = /obj/item/clothing/shoes/workboots
+	head = /obj/item/clothing/head/hardhat/white
 	pda_type = /obj/item/modular_computer/pda/heads/ce
 	r_pocket = /obj/item/device/radio
 	belt = /obj/item/weapon/storage/belt/utility/full
@@ -404,17 +405,27 @@
 /decl/hierarchy/outfit/job/bearcat/technicin
 	name = BEARCAT_OUTFIT_JOB_NAME("Maintenance Technician")
 	head = /obj/item/clothing/head/hardhat
+	suit = /obj/item/clothing/suit/storage/hazardvest
+	gloves = /obj/item/clothing/gloves/thick
+	shoes = /obj/item/clothing/shoes/workboots/alt
+	belt = /obj/item/weapon/storage/belt/utility
+	id_type = /obj/item/weapon/card/id/engineering
 	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
 
 /decl/hierarchy/outfit/job/bearcat/atmospheric
 	name = BEARCAT_OUTFIT_JOB_NAME("Atmospheric Technician")
 	uniform = /obj/item/clothing/under/rank/atmospheric_technician
+	head = /obj/item/clothing/head/hardhat/dblue
+	gloves = /obj/item/clothing/gloves/thick
+	suit = /obj/item/clothing/suit/storage/hazardvest/blue
+	shoes = /obj/item/clothing/shoes/workboots/alt
 	belt = /obj/item/weapon/storage/belt/utility/atmostech
 	id_type = /obj/item/weapon/card/id/engineering/atmos
 
 /decl/hierarchy/outfit/job/bearcat/miner
 	name = BEARCAT_OUTFIT_JOB_NAME("Drill Technician")
 	uniform = /obj/item/clothing/under/rank/miner
+	gloves = /obj/item/clothing/gloves/thick
 	shoes = /obj/item/clothing/shoes/workboots/alt
 	belt = /obj/item/weapon/storage/belt/utility
 	r_pocket = /obj/item/device/radio
@@ -444,7 +455,7 @@
 /decl/hierarchy/outfit/job/bearcat/paramedic
 	name = BEARCAT_OUTFIT_JOB_NAME("Paramedic")
 	uniform = /obj/item/clothing/under/rank/medical/paramedic
-	suit = /obj/item/clothing/suit/storage/toggle/fr_jacket
+	suit = /obj/item/clothing/suit/storage/hazardvest/green
 	shoes = /obj/item/clothing/shoes/jackboots
 	l_hand = /obj/item/weapon/storage/firstaid/adv
 	belt = /obj/item/weapon/storage/belt/medical/emt

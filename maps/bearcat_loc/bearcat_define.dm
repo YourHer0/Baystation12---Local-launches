@@ -11,7 +11,7 @@
 	boss_short    = "Merchant Admiral"
 	company_name  = "Legit Cargo Ltd."
 	company_short = "LC"
-	overmap_event_areas = 11
+	overmap_event_areas = 13
 
 	station_levels = list(1,2,3)
 	contact_levels = list(1,2,3)
@@ -31,7 +31,7 @@
 	default_spawn = "Cryogenic Storage"
 	use_overmap = 1
 	num_exoplanets = 0
-	away_site_budget = 11
+	away_site_budget = 13
 	welcome_sound = 'sound/effects/meteors.ogg'
 
 	map_admin_faxes = list("FTU Merchant Office")
