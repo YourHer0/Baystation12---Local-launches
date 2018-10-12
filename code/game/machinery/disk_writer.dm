@@ -46,7 +46,7 @@
 		update_icon()
 
 /obj/machinery/media/music_writer/attackby(obj/O, mob/user)
-	if(istype(O, /obj/item/weapon/material/coin/silver))
+	if(istype(O, /obj/item/weapon/material/coin))
 		user.drop_item()
 		qdel(O)
 		coin++
