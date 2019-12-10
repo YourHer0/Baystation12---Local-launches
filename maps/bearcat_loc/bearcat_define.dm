@@ -31,7 +31,7 @@
 	default_spawn = "Cryogenic Storage"
 	use_overmap = 1
 	num_exoplanets = 0
-	away_site_budget = 12
+	away_site_budget = 20
 	welcome_sound = 'sound/effects/meteors.ogg'
 
 	map_admin_faxes = list("FTU Merchant Office")
