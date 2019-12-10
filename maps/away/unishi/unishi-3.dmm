@@ -191,7 +191,7 @@
 "dI" = (/obj/structure/closet/crate/freezer/rations,/obj/machinery/light/small{icon_state = "bulb1"; dir = 4},/turf/simulated/floor/tiled/freezer,/area/unishi/kitchen)
 "dJ" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/brown,/obj/item/toy/plushie/kitten,/obj/machinery/light/small,/turf/simulated/floor/tiled,/area/unishi/living)
 "dK" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/item/ammo_casing/c45/used,/obj/item/ammo_casing/c45/used,/obj/item/ammo_casing/c45/used,/obj/item/ammo_casing/c45/used,/obj/item/ammo_casing/c45/used,/turf/simulated/floor/tiled,/area/unishi/living)
-"dL" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/green,/obj/item/weapon/gun/projectile/silenced,/obj/item/weapon/storage/secure/briefcase,/obj/item/weapon/card/emag_broken,/obj/item/weapon/plastique,/obj/item/ammo_casing/c45/used,/obj/item/ammo_casing/c45/used,/obj/item/ammo_casing/c45/used,/obj/item/ammo_casing/c45/used,/turf/simulated/floor/tiled,/area/unishi/living)
+"dL" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/green,/obj/item/weapon/storage/secure/briefcase,/obj/item/weapon/card/emag_broken,/obj/item/weapon/plastique,/obj/item/ammo_casing/c45/used,/obj/item/ammo_casing/c45/used,/obj/item/ammo_casing/c45/used,/obj/item/ammo_casing/c45/used,/turf/simulated/floor/tiled,/area/unishi/living)
 "dM" = (/obj/machinery/vending/cigarette{dir = 4},/turf/simulated/floor/tiled,/area/unishi/living)
 "dN" = (/obj/structure/closet/secure_closet/freezer/fridge,/turf/simulated/floor/tiled/freezer,/area/unishi/kitchen)
 "dO" = (/obj/structure/closet/secure_closet/freezer/meat,/turf/simulated/floor/tiled/freezer,/area/unishi/kitchen)
