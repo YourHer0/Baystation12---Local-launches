@@ -23,7 +23,7 @@
 	id = "awaysite_mining_asteroid"
 	description = "A medium-sized asteroid full of minerals."
 	suffixes = list("mining/mining-asteroid.dmm")
-	cost = 10
+	cost = 1
 	accessibility_weight = 10
 ///	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
