@@ -3,7 +3,7 @@
 /obj/effect/overmap/sector/satellite
 	name = "Communication satellite"
 	desc = "Sensors detect a satellite with low energy profile and sporadic life signs."
-	icon_state = "object"
+	icon_state = "event"
 	known = 1
 
 /datum/map_template/ruin/away_site/satellite
