@@ -72,7 +72,7 @@
 	display_name = "PDA"
 	sort_category = "Utility"
 	path = /obj/item/modular_computer/pda
-	cost = 2
+	cost = 5
 
 
 ///////////
@@ -378,7 +378,7 @@
 /datum/gear/shoes/boots
 	display_name = "boot selection"
 	path = /obj/item/clothing/shoes
-	cost = 2
+	cost = 0
 
 /datum/gear/shoes/boots/New()
 	..()
@@ -423,7 +423,7 @@
 /datum/gear/suit/trenchcoat
 	display_name = "trenchcoat selection"
 	path = /obj/item/clothing/suit
-	cost = 3
+	cost = 0
 
 /datum/gear/suit/trenchcoat/New()
 	..()

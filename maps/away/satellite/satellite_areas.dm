@@ -1,71 +1,103 @@
-/area/lar_maria
+/area/satellite
 	icon = 'maps/away/lar_maria/lar_maria_sprites.dmi'
 
-/////////////////////////////Upper level areas
-/area/lar_maria/solar_control
-	name = "Lar Maria Solar Control Room"
-	icon_state = "solar_control"
+//Fourth Deck (Z-1)
+/area/satellite/fore
+	name = "\improper Fourth Deck Fore Hallway"
+	icon_state = "hallF"
 
-/area/lar_maria/atmos
-	name = "Lar Maria Atmos Control Room"
-	icon_state = "atmos"
+/area/satellite/center
+	name = "\improper Fourth Deck Central Hallway"
+	icon_state = "hallC3"
 
-/area/lar_maria/library
-	name = "Lar Maria Library"
-	icon_state = "library"
+/area/satellite/aft
+	name = "\improper Fourth Deck Aft Hallway"
+	icon_state = "hallA"
 
-/area/lar_maria/head_m
-	name = "Lar Maria Head M"
-	icon_state = "head_m"
+/area/satellite/fourthdeck
+	name = "Fourth Deck Maintenance"
+	icon_state = "maintcentral"
 
-/area/lar_maria/head_f
-	name = "Lar Maria Head F"
-	icon_state = "head_f"
+/area/satellite/fourthdeck/aft
+	name = "Fourth Deck Aft Maintenance"
+	icon_state = "amaint"
 
-/area/lar_maria/hallway
-	name = "Lar Maria Hallway"
-	icon_state = "hallway"
+/area/satellite/foreport
+	name = "Fourth Deck Fore Port Maintenance"
+	icon_state = "fpmaint"
 
-/area/lar_maria/office
-	name = "Lar Maria Office and Infirmary"
-	icon_state = "office"
+/area/satellite/forestarboard
+	name = "Fourth Deck Fore Starboard Maintenance"
+	icon_state = "fsmaint"
 
-/area/lar_maria/mess_hall
-	name = "Lar Maria Mess Hall"
-	icon_state = "mess_hall"
+/area/satellite/starboard
+	name = "Fourth Deck Starboard Maintenance"
+	icon_state = "smaint"
 
-/area/lar_maria/dorms
-	name = "Lar Maria Dormitory"
-	icon_state = "dorms"
-/////////////////////////////Lower level areas
-/area/lar_maria/cells
-	name = "Lar Maria Holding Area"
-	icon_state = "cells"
+/area/satellite/port
+	name = "Fourth Deck Port Maintenance"
+	icon_state = "pmaint"
 
-/area/lar_maria/sec_wing
-	name = "Lar Maria Security Wing"
-	icon_state = "sec_wing"
+/area/satellite/fourthdeck
+	name = "\improper Fourth Deck Teleporter"
+	icon_state = "teleporter"
 
-/area/lar_maria/vir_access
-	name = "Lar Maria Virology Access"
-	icon_state = "vir_access"
+/area/satellite/fourthdeck
+	name = "Fourth Deck Substation"
 
-/area/lar_maria/morgue
-	name = "Lar Maria Morgue"
-	icon_state = "morgue"
+//Third Deck (Z-2)
+/area/hsatellite/fore
+	name = "\improper Third Deck Fore Hallway"
+	icon_state = "hallF"
 
-/area/lar_maria/vir_hallway
-	name = "Lar Maria Virology Hallway"
-	icon_state = "vir_hallway"
+/area/satellite/center
+	name = "\improper Third Deck Central Hallway"
+	icon_state = "hallC3"
 
-/area/lar_maria/vir_ward
-	name = "Lar Maria Virology Ward"
-	icon_state = "vir_ward"
+/area/satellite/aft
+	name = "\improper Third Deck Aft Hallway"
+	icon_state = "hallA"
 
-/area/lar_maria/vir_main
-	name = "Lar Maria Virology Main Lab"
-	icon_state = "vir_main"
+/area/satellite/thirddeck
+	name = "Third Deck Maintenance"
+	icon_state = "maintcentral"
 
-/area/lar_maria/vir_aux
-	name = "Lar Maria Virology Auxilary Lab"
-	icon_state = "vir_aux"
+/area/satellite/foreport
+	name = "Third Deck Fore Port Maintenance"
+	icon_state = "fpmaint"
+
+/area/satellite/forestarboard
+	name = "Third Deck Fore Starboard Maintenance"
+	icon_state = "fsmaint"
+
+/area/satellite/starboard
+	name = "Third Deck Starboard Maintenance"
+	icon_state = "smaint"
+
+/area/satellite/port
+	name = "Third Deck Port Maintenance"
+	icon_state = "pmaint"
+
+/area/satellite/aftstarboard
+	name = "Third Deck Aft Starboard Maintenance"
+	icon_state = "asmaint"
+
+/area/satellite/aftport
+	name = "Third Deck Aft Port Maintenance"
+	icon_state = "apmaint"
+
+/area/satellite/thirddeck
+	name = "\improper Third Deck Teleporter"
+	icon_state = "teleporter"
+
+/area/satellite/thirddeck
+	name = "Third Deck Substation"
+
+
+/area/satellite/thirddeck
+	name = "\improper Third Deck Safe Room"
+
+
+/area/satellite/laundry
+	name = "\improper Laundry Room"
+	icon_state = "Sleep"

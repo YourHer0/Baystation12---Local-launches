@@ -10,5 +10,5 @@
 	name = "Communication satellite"
 	id = "awaysite_satellite"
 	description = "Communication satellite."
-	suffixes = list("olivia/satellite-1.dmm", "olivia/satellite-1.dmm")
+	suffixes = list("satellite/map1.dmm", "satellite/map2.dmm")
 	cost = 1
