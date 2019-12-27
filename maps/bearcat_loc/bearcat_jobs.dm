@@ -95,7 +95,7 @@
 	skill_points = 24
 
 /datum/job/cmo
-	title = "Consultant"
+	title = "Senior doctor"
 	supervisors = "the Captain"
 	economic_power = 3
 	department = "Medical"
@@ -203,8 +203,8 @@
 	title = "Security"
 	supervisors = "the Captain and his laws."
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/security
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 3
+	spawn_positions = 3
 	alt_titles = list(
 		"Sheriff")
 	hud_icon = "hudsecurityofficer"
