@@ -216,14 +216,14 @@
 	data["mitigation_em"] = round(mitigation_em, 0.1)
 	data["mitigation_heat"] = round(mitigation_heat, 0.1)
 	data["field_integrity"] = field_integrity()
-	data["max_energy"] = round(max_energy / 1000000, 0.1)
-	data["current_energy"] = round(current_energy / 1000000, 0.1)
+	data["max_energy"] = round(max_energy / 500000, 0.1)
+	data["current_energy"] = round(current_energy / 500000, 0.1)
 	data["total_segments"] = field_segments ? field_segments.len : 0
 	data["functional_segments"] = damaged_segments ? data["total_segments"] - damaged_segments.len : data["total_segments"]
 	data["field_radius"] = field_radius
-	data["input_cap_kw"] = round(input_cap / 1000)
-	data["upkeep_power_usage"] = round(upkeep_power_usage / 1000, 0.1)
-	data["power_usage"] = round(power_usage / 1000)
+	data["input_cap_kw"] = round(input_cap / 500)
+	data["upkeep_power_usage"] = round(upkeep_power_usage / 500, 0.1)
+	data["power_usage"] = round(power_usage / 500)
 	data["hacked"] = hacked
 	data["offline_for"] = offline_for * 2
 
@@ -274,7 +274,7 @@
 		var/old_energy = current_energy
 		shutdown_field()
 		log_and_message_admins("has triggered \the [src]'s emergency shutdown!", user)
-		spawn()	
+		spawn()
 			empulse(src, old_energy / 60000000, old_energy / 32000000, 1) // If shields are charged at 450 MJ, the EMP will be 7.5, 14.0625. 90 MJ, 1.5, 2.8125
 		old_energy = 0
 
