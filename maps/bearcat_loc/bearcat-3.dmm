@@ -211,7 +211,7 @@
 "ec" = (/obj/random/junk,/obj/effect/decal/cleanable/cobweb2,/obj/structure/closet/secure_closet/explorer,/obj/item/clothing/accessory/armor/tag/solgov/ec,/obj/item/clothing/head/soft/solgov/expedition,/obj/item/clothing/under/solgov/utility/expeditionary/service,/obj/item/clothing/under/solgov/pt/expeditionary,/obj/item/weapon/rig/command/exploration/equipped{req_access = newlist()},/obj/item/weapon/material/hatchet/machete,/turf/simulated/floor/tiled,/area/ship/scrap/top/research)
 "ed" = (/obj/structure/flora/pottedplant/dead,/obj/effect/decal/cleanable/dirt,/obj/machinery/light_switch{pixel_x = 24},/turf/simulated/floor/tiled,/area/ship/scrap/top/research)
 "ee" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/simulated/floor/tiled,/area/ship/scrap/top/hallway/aft)
-"ef" = (/turf/simulated/floor/plating,/obj/structure/catwalk,/obj/structure/lattice,/turf/simulated/open,/area/ship/scrap/top/hallway/starbound)
+"ef" = (/obj/machinery/hologram/holopad/longrange,/turf/simulated/floor/wood,/area/ship/scrap/top/den)
 "eg" = (/obj/structure/catwalk,/obj/structure/closet/crate/secure/loot,/obj/random/handgun,/obj/random/suit,/obj/random/ammo,/obj/random/maintenance,/turf/simulated/open,/area/ship/scrap/top/hallway/port)
 "eh" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/closet/secure_closet/explorer,/obj/item/clothing/accessory/armor/tag/solgov/ec,/obj/item/clothing/head/soft/solgov/expedition,/obj/item/clothing/under/solgov/utility/expeditionary/security,/obj/item/clothing/under/solgov/pt/expeditionary,/obj/item/weapon/material/hatchet/machete,/turf/simulated/floor/tiled,/area/ship/scrap/top/research)
 "ei" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/turf/simulated/floor/tiled,/area/ship/scrap/top/hallway/aft)
@@ -288,7 +288,7 @@
 "fB" = (/obj/structure/table/rack,/obj/random/maintenance,/obj/random/maintenance,/obj/random/junk,/turf/simulated/floor/plating,/area/ship/scrap/top/hallway/aft)
 "fC" = (/obj/structure/anomaly_container,/mob/living/simple_animal/mouse/white,/turf/simulated/floor/tiled,/area/ship/scrap/top/research)
 "fD" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/ship/scrap/top/aft_solars)
-"fE" = (/obj/machinery/embedded_controller/radio/airlock/airlock_controller{frequency = 1380; id_tag = "solar"; pixel_x = 0; pixel_y = -25; req_access = list(13); tag_airpump = "solar_pump"; tag_chamber_sensor = "solar_sensor"; tag_exterior_door = "solar_outer"; tag_interior_door = "solar_inner"},/obj/machinery/airlock_sensor{frequency = 1380; id_tag = "solar_sensor"; pixel_x = 0; pixel_y = -35},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/ship/scrap/top/aft_solars/control)
+"fE" = (/turf/simulated/floor/plating,/obj/structure/catwalk,/obj/structure/lattice,/turf/simulated/open,/area/ship/scrap/top/hallway/starbound)
 "fF" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/brown,/turf/simulated/floor/carpet,/area/ship/scrap/crew/dorms7)
 "fG" = (/obj/structure/table/woodentable,/obj/item/device/radio/intercom{dir = 4; pixel_x = -22},/turf/simulated/floor/wood,/area/ship/scrap/crew/dorms5)
 "fH" = (/obj/structure/closet/l3closet/general/multi,/turf/simulated/floor/plating,/area/ship/scrap/top/hallway/aft)
@@ -350,6 +350,7 @@
 "gL" = (/obj/structure/sign/deck/third,/turf/simulated/wall/prepainted,/area/ship/scrap/top/hallway/aft)
 "gM" = (/obj/machinery/door/window/southright{name = "Bar Desk"; req_access = newlist()},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/carpet,/area/ship/scrap/top/den)
 "gN" = (/obj/machinery/power/tracker,/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/reinforced/airless,/area/space)
+"gO" = (/obj/machinery/embedded_controller/radio/airlock/airlock_controller{frequency = 1380; id_tag = "solar"; pixel_x = 0; pixel_y = -25; req_access = newlist(); tag_airpump = "solar_pump"; tag_chamber_sensor = "solar_sensor"; tag_exterior_door = "solar_outer"; tag_interior_door = "solar_inner"},/obj/machinery/airlock_sensor{frequency = 1380; id_tag = "solar_sensor"; pixel_x = 0; pixel_y = -35},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/ship/scrap/top/aft_solars/control)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -387,12 +388,12 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaqaqaqaqaqaqagacapasatauaw
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaqaqaqaqaqaqaqaAarasaBawawawaCasazaDaEaEaEaEaEaEdBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacfadaqaqaFaGaJaxaVaKaPaLaMaOaHaNgMaLaSaTaWaUaYaZbdaEaEadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqaqaqbebfbibrbsbgbhaLdcbaawbbbcaLbjbkbtbubvbFbGaEaEaEbHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqbIbIbIbJbJbJbJbwbxblbmbnbobobpbqbybEbKbKbKbKbVbVbVbVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqbIbIbIbJbJbJbJbwbxblbmbnefbobpbqbybEbKbKbKbKbVbVbVbVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadbIbIbXcjcwcCdabLbRaLbzbAbBbCbDaLbTbUdjdLdMemfFbVbVadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabIbIbIfGgAgBaXbJdnbMaLbNbObPbQdoaLbSdzbKdbgEgFgGbVbVbVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabIbIbIbIbIgHbJbJexbWbYaLbZbZbZaLbYcacbaRcccdcecebVbVbVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadcfcfcgdkciaIePckcldIcmcncmcoaRcpcqaRcrdNctabcfadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaadabcfcgchcucvfucxcyczczczcAczcBefcDcEcFcsctcfcGadaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaadabcfcgchcucvfucxcyczczczcAczcBfEcDcEcFcsctcfcGadaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadabaaaaaaaaadcfcGcgchcHaIcIcJcKcLcMcMcLcLcNcOcPaRcQcsctcfabadaaaaaaadabadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababaaaaadcRcRcRcScTaIcUcVaIcmcWcXcmcmaRcYcZaRcdcdcececeadaaaaababcfababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababadadcRcRglelecaIdddeaIdfcWcXdgdgaRdhaQdieHdlfgceceadadababababacababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -406,7 +407,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaacRcRgxeQeReSdrdCdCdseTeUdC
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaacRcRcRcRcRcRdwfbfcfcfcfdfcfcdrdrfedrdwdxdxdxdxdxdxaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacRcRcRaccfababfbfffcgyfhfifcfjgCflfmdwdxdxdxdxdxdxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafnfnfnfnfofpfqgqfrfsftgkfvfXfxfyfzfAfBdwfnfndxdxdxadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababfDabababfbfEfcfcgzgJfbfHfIfAfJdwababfndxdxadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababfDabababfbgOfcfcgzgJfbfHfIfAfJdwababfndxdxadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababfDcfabacfbfbfbfKfLfMfbdwdwdwdwdwabababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacfabacabfDcfabfOabgDfbfPfPfPfbabcfababcfacabcfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacfabababfDcfababababcfababcfcfcfabacabcfabababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
